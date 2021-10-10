@@ -1,0 +1,31 @@
+.header__link{
+    color: #ffffff;
+    text-decoration: none;
+    transition: 1s;
+    position: relative;
+    font-weight: 400;
+    font-family:  "Roboto", "Arial ", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.header__link::before{
+    background-color: #E1DECE;
+    position: absolute;
+    content: '';
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    transition: 1s;
+    transform: scaleX(0);
+}
+
+.header__link:hover{
+    color: #E1DECE;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.header__link:hover:before{
+    transform: scaleX(1);
+}

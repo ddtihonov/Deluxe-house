@@ -1,0 +1,249 @@
+@import url(../vendor/normalize.css);
+
+/*Подключаем fonts*/
+@import url(../fonts/fonts.css);
+
+/*Подключаем page*/
+@import url(../blocks/page/page.css);
+
+/*Подключаем header*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__logo/header__logo.css);
+
+/*Подключаем portfolio*/
+@import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/portfolio/__title/portfolio__title.css);
+@import url(../blocks/portfolio/__line/portfolio__line.css);
+
+/*Подключаем advantage*/
+@import url(../blocks/advantage/advantage.css);
+
+/*Подключаем footer*/
+@import url(../blocks/footer/footer.css);
+
+/*Подключаем table*/
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__card/table__card.css);
+@import url(../blocks/table/__hint/table__hint.css);
+@import url(../blocks/table/__text/table__text.css);
+@import url(../blocks/table/__title/table__title.css);
+@import url(../blocks/table/__image/table__image.css);
+@import url(../blocks/table/__link/table__link.css);
+
+/*Подключаем table-smoll*/
+@import url(../blocks/table-smoll/table-smoll.css);
+@import url(../blocks/table-smoll/__card/table-smoll__card.css);
+@import url(../blocks/table-smoll/__image/table-smoll__image.css);
+@import url(../blocks/table-smoll/__title/table-smoll__title.css);
+@import url(../blocks/table-smoll/__text/table-smoll__text.css);
+
+
+/*Подключаем button*/
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/__margin/button__margin.css);
+@import url(../blocks/button/__box/button__box.css);
+
+/*Подключаем link-aim*/
+@import url(../blocks/link-aim/link-aim.css);
+
+/*Подключаем popup*/
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__close-icon/popup__close-icon.css);
+
+
+
+.header__list {
+    padding: 0;
+    max-width: 609px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+
+.border{
+    border: 1px solid red;
+}
+
+.header_box{
+display: flex;
+}
+
+.header__phone-image{
+    width: 14px;
+    margin-right: 10px;
+}
+
+.header__phone {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+@media (max-width: 800px){
+    .header__phone {
+        font-size: 15px;
+        line-height: 1.15;
+    }
+}
+
+.header__item {
+    margin-left: 20px;
+}
+
+.header__item:first-child{
+    margin-left: 0;
+}
+
+@media (max-width: 800px){
+    .header__item  {
+        font-size: 10px;
+        line-height: 1.15;
+    }
+}
+
+.initial{
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.initial__box {
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+}
+.initial__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #E1DECE;
+    transform: rotate(-89.39deg );
+    margin: 0; 
+}
+.initial__line {
+    width: 1px;
+    height: 75px;
+    background-color: #E1DECE;
+}
+.initial__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.initial__box-image{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/dizayn_interera_v_astane_initial.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    
+}
+.initial__link {
+    margin-top: 10px;
+}
+.initial__social-icon {
+}
+
+.initial__button{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: #FFF;
+    color: #1B1B1B;
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+}
+
+.initial__title{
+    font-family: 'Forum';
+    font-weight: 400;
+    margin: 0 auto 22px;
+    max-width: 578px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.initial__title_color{
+    color: #E1DECE;
+}
+
+/**/
+
+.positives {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 130px 10px 0 10px;
+}
+.positives__container {
+    position: relative;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.positives__image {
+    max-width: 520px;
+}
+
+.positives__box{
+    max-width: 455px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.positives__text {
+    color: #6E6E6E;
+    font-size: 15px;
+    line-height: 26px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.positives__title {
+    font-family: 'Forum';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    color: #E1DECE;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: start;
+    color: #C4C4C4;
+    margin: 0;
+}
+
+.positives__draft_one-left{
+    position: absolute;
+    left: -300px;
+    top: -90px;
+}
+
+.positives__draft_one-ragth{
+    position: absolute;
+    right: -300px;
+    top: -90px;
+}

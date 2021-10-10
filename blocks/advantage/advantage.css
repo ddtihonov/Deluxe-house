@@ -1,0 +1,12 @@
+.advantage{
+    max-width: 100%;
+    margin: 0 auto;
+    background-image: url(../../images/bg_plus.png);
+    padding: 60px 0 60px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

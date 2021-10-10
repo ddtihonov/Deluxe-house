@@ -1,0 +1,9 @@
+.table__link {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+}
+
+.table__link:hover .table__hint{
+    opacity: 1;
+}
