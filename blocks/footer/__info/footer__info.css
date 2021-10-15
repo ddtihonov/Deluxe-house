@@ -1,0 +1,15 @@
+.footer__info {
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+@media (max-width: 768px){
+    .footer__info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

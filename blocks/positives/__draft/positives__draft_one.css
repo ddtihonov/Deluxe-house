@@ -1,0 +1,12 @@
+.positives__draft_one{
+    position: absolute;
+    max-width: 500px;
+    top: -470px;
+    right: -10px;
+}
+
+@media (max-width: 425px){
+    .positives__draft_one{
+        max-width: 300px;
+    }
+}

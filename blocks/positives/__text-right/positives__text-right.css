@@ -1,0 +1,5 @@
+@media (max-width: 768px){
+    .positives__text-right {
+        text-align: right;
+    }
+}

@@ -1,0 +1,23 @@
+.positives__title {
+    max-width: 350px;
+    font-family: 'Forum';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    color: #E1DECE;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 780px){
+    .positives__title {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 500px){
+    .positives__title {
+        font-size: 30px;
+        line-height: 36px;
+    }
+}

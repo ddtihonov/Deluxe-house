@@ -1,0 +1,7 @@
+.positives__box{
+    max-width: 455px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}

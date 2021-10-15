@@ -1,0 +1,26 @@
+.initial__button{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: #FFF;
+    color: #1B1B1B;
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+}
+
+@media (max-width: 768px){
+    .initial__button{
+        font-size: 10px;
+        line-height: 1.15;
+        width: 150px;
+        height: 40px;
+    }
+}
+
+.initial__button:hover{
+    background-color: #FFFACD;
+    transition: 1s;
+    cursor: pointer;
+}

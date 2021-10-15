@@ -1,0 +1,15 @@
+.footer__social-icon {
+    width: 30px;
+}
+
+@media (max-width: 768px){
+    .footer__social-icon {
+        width: 40px;
+    }
+}
+
+.footer__social-icon:hover{
+    cursor: pointer;
+    filter: drop-shadow(0 0 5px #fff);
+    transition: 1s;
+}

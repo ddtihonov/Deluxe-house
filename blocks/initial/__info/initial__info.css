@@ -1,0 +1,29 @@
+.initial__info{
+    max-width: 710px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 225px 0; 
+}
+
+@media (max-width: 1024px){
+    .initial__info{
+        padding: 175px 0;
+        max-width: 578px; 
+    }
+}
+
+@media (max-width: 768px){
+    .initial__info{
+        padding: 95px 0;
+        max-width: 400px; 
+    }
+}
+
+@media (max-width: 425px){
+    .initial__info{
+        max-width: 240px; 
+    }
+}

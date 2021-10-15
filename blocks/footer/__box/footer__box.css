@@ -1,0 +1,7 @@
+.footer__box {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    min-width: 220px;
+}

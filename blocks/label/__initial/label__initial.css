@@ -1,0 +1,24 @@
+.label__initial{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+@media (max-width: 1024px){
+    .label__initial{
+        max-width: 300px;
+        
+    }
+}
+
+@media (max-width: 768px){
+    .label__initial{
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 425px){
+    .label__initial{
+        max-width: 130px;
+    }
+}

@@ -1,0 +1,15 @@
+.partners__list {
+    max-width: 770px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 0 10px;
+    margin: 50px auto 0;
+}
+
+@media (max-width: 425px){
+    .partners__list {
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    }
+}

@@ -1,0 +1,16 @@
+.useful{
+    max-width: 1170px;
+    padding-top: 100px;
+    max-width: 100%;
+    background-image: url(../../images/bg_useful.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto; 
+}
+
+@media (max-width: 425px){
+    .useful{
+        padding-top: 250px;
+    }
+}

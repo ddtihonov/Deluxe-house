@@ -1,0 +1,20 @@
+.result__number {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #E1DECE;
+    margin: 0 6px 0 -15px;
+}
+
+@media (max-width: 1020px){
+    .result__number {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 768px){
+    .result__number {
+        margin: 0 6px 0 0;
+    }
+}

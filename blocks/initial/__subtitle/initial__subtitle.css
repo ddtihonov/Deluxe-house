@@ -1,0 +1,17 @@
+.initial__subtitle {
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #E1DECE;
+    transform: rotate(-89.39deg );
+    margin: 120px 0;
+}
+
+@media (max-width: 768px){
+    .initial__subtitle{
+        font-size: 10px;
+        line-height: 1.15;
+        margin: 70px 0;
+    }
+}

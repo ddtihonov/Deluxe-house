@@ -1,0 +1,21 @@
+.initial__box {
+    max-height: 100%;
+    position: relative;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 1280px){
+    .initial__box {
+        width: 50px;
+    }
+}
+
+@media (max-width: 768px){
+    .initial__box {
+        width: 30px;
+        justify-content: flex-end;
+    }
+}

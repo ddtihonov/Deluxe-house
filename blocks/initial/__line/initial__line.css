@@ -1,0 +1,20 @@
+.initial__line {
+    width: 1px;
+    height: 75px;
+    background-color: #E1DECE;
+    margin: 30px auto;
+}
+
+@media (max-width: 768px){
+    .initial__line{
+        height: 35px;
+        margin: 15px auto;
+    }
+}
+
+@media (max-width: 425px){
+    .initial__line{
+        height: 15px;
+        margin: 10px auto;
+    }
+}

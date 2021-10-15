@@ -1,0 +1,9 @@
+.steps__link {
+    color: #6E6E6E;
+    font-size: 15px;
+    line-height: 26px;
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}

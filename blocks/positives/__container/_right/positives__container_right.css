@@ -1,0 +1,6 @@
+@media (max-width: 768px){
+    .positives__container_right {
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+}

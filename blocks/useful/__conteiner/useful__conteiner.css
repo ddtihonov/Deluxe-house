@@ -1,0 +1,11 @@
+.useful__conteiner {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1020px){
+    .useful__conteiner {
+        width: 100%;
+    }
+}

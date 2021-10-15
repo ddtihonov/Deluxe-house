@@ -1,0 +1,10 @@
+.initial__box-image{
+    position: relative;
+    width: 100%;
+    background-image: url(../../../images/dizayn_interera_v_astane_initial.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    
+}

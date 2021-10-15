@@ -1,0 +1,14 @@
+.result__text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+@media (max-width: 1020px){
+    .result__text {
+        font-size: 10px;
+        line-height: 1.1;
+    }
+}

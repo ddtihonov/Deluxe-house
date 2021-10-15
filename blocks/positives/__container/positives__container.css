@@ -1,0 +1,17 @@
+.positives__container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+@media (max-width: 768px){
+    .positives__container {
+        flex-direction: column;
+    }
+}
+
+.positives__container:last-child{
+    margin-bottom: 0;
+}

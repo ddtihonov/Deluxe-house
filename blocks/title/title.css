@@ -1,0 +1,33 @@
+.title{
+    font-family: 'Forum';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.25;
+    color: #FFF;
+    max-width: 560px;
+    padding: 0 10px;
+}
+
+@media (max-width: 1024px){
+    .title{
+        font-size: 30px;
+        line-height: 1.25;
+        max-width: 420px;
+    }
+}
+
+@media (max-width: 768px){
+    .title{
+        font-size: 21px;
+        line-height: 1.25;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 425px){
+    .title{
+        font-size: 18px;
+        line-height: 1.25;
+        max-width: 260px;
+    }
+}

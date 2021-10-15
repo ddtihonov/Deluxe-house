@@ -1,0 +1,30 @@
+.we__image {
+    max-width: 517px;
+    object-fit: contain;
+}
+
+@media (max-width: 1240px){
+    .we__image {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 1020px){
+    .we__image {
+        max-width: 270px;
+    }
+}
+
+@media (max-width: 768px){
+    .we__image {
+        object-fit: fill;
+        max-width: 400px;
+        margin: 0 auto 20px;
+    }
+}
+
+@media (max-width: 425px){
+    .we__image {
+        max-width: 100%;
+    }
+}

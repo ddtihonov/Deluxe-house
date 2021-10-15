@@ -1,0 +1,18 @@
+.useful__box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto 0;
+}
+
+@media (max-width: 1020px){
+    .useful__box {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px){
+    .useful__box {
+        margin-bottom: 220px;
+    }
+}

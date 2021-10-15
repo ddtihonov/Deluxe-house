@@ -1,0 +1,24 @@
+.useful__text {
+    max-width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #101010;
+    padding: 0 10px;
+    margin: 0 0 20px 0; 
+}
+
+@media (max-width: 768px){
+    .useful__text {
+        font-size: 15px;
+        line-height: 1.3;
+        margin: 0 0 10px 0; 
+    }
+}
+
+@media (max-width: 425px){
+    .useful__text {
+        font-size: 12px;
+        line-height: 1.3;
+    }
+}

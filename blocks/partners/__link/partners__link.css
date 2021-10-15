@@ -1,0 +1,19 @@
+.partners__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.partners__image-link {
+    display: block;
+    max-width: 100%;
+    max-height: auto;
+}
+
+.partners__image-link:hover{
+    cursor: pointer;
+    filter: drop-shadow(0 0 2px #fff);
+    transition: 1s;
+}

@@ -1,0 +1,10 @@
+.useful__title{
+    margin: 0 10px 30px auto;
+    margin-top: 300px;
+}
+
+@media (max-width: 425px){
+    .useful__title{
+        margin: 25px 0 20px auto;
+    }
+}

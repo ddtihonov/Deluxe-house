@@ -1,0 +1,24 @@
+.we__text {
+    max-width: 100%;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFF;
+    padding: 0 10px;
+    margin: 0 0 10px 0; 
+}
+
+@media (max-width: 768px){
+    .we__text {
+        font-size: 12px;
+        line-height: 1.2;
+        padding: 0;
+    }
+}
+
+@media (max-width: 425px){
+    .we__text {
+        font-size: 12px;
+        line-height: 1.2;
+    }
+}

@@ -1,0 +1,12 @@
+.partners__cell {
+    display: flex;
+    height: 70px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+@media (max-width: 425px){
+    .partners__cell {
+        width: 120px;
+    }
+}

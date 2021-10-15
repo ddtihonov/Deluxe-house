@@ -1,0 +1,14 @@
+.positives__draft_ragth{
+    position: absolute;
+    max-width: 350px;
+    right: -120px;
+    top: -150px;
+}
+
+@media (max-width: 1000px){
+    .positives__draft_ragth{
+        max-width: 250px;
+        right: -10px;
+        top: -50px;
+    }
+}

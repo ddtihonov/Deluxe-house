@@ -1,0 +1,19 @@
+.label__as-plus {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+
+@media (max-width: 1024px){
+    .label__as-plus {
+        top: 50px;
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 425px){
+    .label__as-plus {
+        max-width: 250px;
+        right: 35px;
+    }
+}

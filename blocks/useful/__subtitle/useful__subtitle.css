@@ -1,0 +1,31 @@
+.useful__subtitle {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: #101010;
+    padding: 0 10px;
+    margin: 0 0 20px 0; 
+}
+
+@media (max-width: 1280px){
+    .useful__subtitle {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+}
+
+@media (max-width: 768px){
+    .useful__subtitle {
+        font-size: 18px;
+        line-height: 1.2;
+        margin: 0 0 10px 0; 
+    }
+}
+
+@media (max-width: 425px){
+    .useful__subtitle {
+        font-size: 15px;
+        line-height: 1.2;
+        margin: 0 0 10px 0; 
+    }
+}

@@ -1,0 +1,10 @@
+.footer__map {
+    display: flex;
+}
+
+@media (max-width: 768px){
+    .footer__map {
+        margin: 60px 0;
+        padding: 0 10px;
+    }
+}
