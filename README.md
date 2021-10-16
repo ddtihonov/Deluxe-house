@@ -1,5 +1,5 @@
 # Проект:
-DELUXE HOUSE
+DELUXE HOUSE.
 
 ___
 ### О сайте:
