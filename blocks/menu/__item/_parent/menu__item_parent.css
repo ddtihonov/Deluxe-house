@@ -1,0 +1,6 @@
+.menu__item_parent:hover .menu__submenu{
+    visibility: visible;
+    opacity: 1;
+    pointer-events: all;
+    transform: translate(0px, 0px);
+}

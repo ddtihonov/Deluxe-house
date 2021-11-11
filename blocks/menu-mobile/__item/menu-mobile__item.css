@@ -1,0 +1,8 @@
+.menu-mobile__item {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.menu-mobile__item:last-child{
+    margin-bottom: 0;
+}

@@ -1,15 +1,22 @@
-.header__link{
+.menu__link{
     color: #ffffff;
     text-decoration: none;
     transition: 1s;
     position: relative;
     font-weight: 400;
-    font-family:  "Roboto", "Arial ", sans-serif;
+    font-family:  "Roboto";
     font-size: 14px;
     line-height: 16px;
 }
 
-.header__link::before{
+@media (max-width: 1020px){
+    .menu__link{
+        font-size: 13px;
+        line-height: 1.15;
+    }
+}
+
+.menu__link::before{
     background-color: #E1DECE;
     position: absolute;
     content: '';
@@ -20,12 +27,12 @@
     transform: scaleX(0);
 }
 
-.header__link:hover{
+.menu__link:hover{
     color: #E1DECE;
     transition: 1s;
     cursor: pointer;
 }
 
-.header__link:hover:before{
+.menu__link:hover:before{
     transform: scaleX(1);
 }

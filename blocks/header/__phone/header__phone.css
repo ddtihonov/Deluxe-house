@@ -1,0 +1,12 @@
+.header__phone {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+@media (max-width: 1020px){
+    .header__phone {
+        font-size: 15px;
+        line-height: 1.15;
+    }
+}

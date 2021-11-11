@@ -9,19 +9,57 @@
     <link rel="stylesheet" href="pages/index.css">
 </head>
 <body class="page">
-    <header class="header">
-        <img  class="header__logo" src="./images/logo2.svg" alt="логотип">
-        <nav class="">
-            <ul class="header__list">
-                <li class="header__item"><a href="#" class="header__link">Услуги</a></li>
-                <li class="header__item"><a href="#" class="header__link">Ремонт</a></li>
-                <li class="header__item"><a href="#" class="header__link">Портфолио</a></li>
-                <li class="header__item"><a href="#" class="header__link">О нас</a></li>
-                <li class="header__item"><a href="#" class="header__link">Статьи</a></li>
-                <li class="header__item"><a href="#" class="header__link">Контакты</a></li>
+    <div class="menu__icon">
+        <span></span>
+    </div>
+    <div class="menu-mobile">
+        <nav class="menu-mobile__body">
+            <ul class="menu-mobile__list">
+                <li class="menu-mobile__item"><a href="#" class="menu-mobile__link">Услуги</a></li>
+                <li class="menu-mobile__item"><a href="#" class="menu-mobile__link">Ремонт</a></li>
+                <li class="menu-mobile__item menu__item_parent">
+                    <a href="#" class="menu-mobile__link">Портфолио
+                        <ul class="menu-mobile__submenu">
+                            <li class="menu-mobile__submenu_item"><a href="#" class="menu-mobile__link">Жилые помещения</a></li>
+                            <li class="menu-mobile__submenu_item"><a href="#" class="menu-mobile__link">Коммерческие помещения</a></li>
+                        </ul>
+                    </a>
+                    
+                </li>
+                <li class="menu-mobile__item"><a href="#" class="menu-mobile__link">О нас</a></li>
+                <li class="menu-mobile__item"><a href="#" class="menu-mobile__link">Статьи</a></li>
+                <li class="menu-mobile__item"><a href="#" class="menu-mobile__link">Контакты</a></li>
             </ul>
         </nav>
-        <div class="header_box">
+        <div class="menu-mobile__box">
+            <img  class="menu-mobile__phone-image" src="./images/phone.svg" alt="значек телефона">
+            <h2 class="menu-mobile__phone">8 (700) 300-03-40</h2>
+        </div>
+    </div>
+    <header class="header">
+        <img  class="header__logo" src="./images/logo2.svg" alt="логотип">
+        <div class="header__menu menu">
+            <nav class="menu__body">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Ремонт</a></li>
+                    <li class="menu__item menu__item_parent">
+                        <a href="#" class="menu__link">Портфолио
+                            <ul class="menu__submenu">
+                                <li class="menu__submenu_item"><a href="#" class="menu__link">Жилые помещения</a></li>
+                                <li class="menu__submenu_item"><a href="#" class="menu__link">Коммерческие помещения</a></li>
+                            </ul>
+                        </a>
+                        
+                    </li>
+                    <li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Статьи</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="header__box">
             <img  class="header__phone-image" src="./images/phone.svg" alt="значек телефона">
             <h2 class="header__phone">8 (700) 300-03-40</h2>
         </div>    
@@ -96,10 +134,6 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="details">
-            <h2 class="title title__blask">Мы всегда <span class="title__selection title__color">стремимся</span> к совершенству <span class="title__selection title__color">совершенству</span> во всех деталях!</h2>
-            <img class="details__image" src="./images/img-line-ab.png" alt="обьекты">
         </section>
         <section class="portfolio">
             <h2 class="title__smoll">Наши проекты</h2>
@@ -438,5 +472,6 @@
             <button class="popup__close-icon link-aim" type="button" aria-label="закрыть"></button>
         </div> 
     </div>-->
+    <script type="module" src="scripts/index.js"></script>
 </body>
 </html>

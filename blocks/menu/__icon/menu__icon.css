@@ -1,0 +1,45 @@
+.menu__icon  {
+    visibility: hidden;
+}
+
+@media (max-width: 768px){
+    .menu__icon  {
+        visibility: visible;
+        z-index: 5;
+        position: fixed;
+        width: 30px;
+        height: 18px;
+        cursor: pointer;
+        top: 20px;
+        right: 20px;
+    }
+
+    .menu__icon span,
+    .menu__icon::before,
+    .menu__icon::after {
+        left: 0;
+        position: absolute;
+        height: 12%;
+        width: 100%;
+        transition: all 0.3s ease 0s;
+        background-color: #E1DECE;
+    }
+
+    .menu__icon::before,
+    .menu__icon::after {
+        content: "";
+    }
+
+    .menu__icon::after {
+        bottom: 0;
+    }
+
+    .menu__icon::before {
+        top: 0;
+    }
+
+    .menu__icon span {
+        top: 50%;
+        transform: scale(1) translate(0px, -50%);
+    }
+}
