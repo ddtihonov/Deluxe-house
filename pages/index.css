@@ -168,7 +168,7 @@
 @import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/popup/__close-icon/popup__close-icon.css);
 
-.menu-mobile{
+/*.menu-mobile{
     background-color: rgba(27, 27, 27, 1);
     position: fixed;
     top: 0;
@@ -235,7 +235,7 @@
 
 .box{
     border: 1px solid rgb(196, 30, 146);
-}
+}*/
 
 /**************************************/
 /**************************************/
