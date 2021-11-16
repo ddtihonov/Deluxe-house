@@ -11,3 +11,5 @@ ___
 ___
 
 ### Ссылка на проект:
+
+https://ddtihonov.github.io/Deluxe-house/
