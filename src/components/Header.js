@@ -8,12 +8,14 @@ export default function Header() {
 
     return (
     <header className="header">
-        <img  className="header__logo" src={logo_header} alt="логотип"/>
+        <Link className="header__logo-link" to="/">
+            <img  className="header__logo" src={logo_header} alt="логотип"/>
+        </Link>   
         <div className="header__menu menu">
             <nav className="menu__body">
                 <ul className="menu__list">
-                    <li className="menu__item"><a href="#" className="menu__link">Услуги</a></li>
-                    <li className="menu__item"><a href="#" className="menu__link">Ремонт</a></li>
+                    <li className="menu__item"><Link className="menu__link" to="/services">Услуги</Link></li>
+                    <li className="menu__item"><Link className="menu__link" to="/repiair">Ремонт</Link></li>
                     <li className="menu__item menu__item_parent">
                         <a href="#" className="menu__link">Портфолио
                             <ul className="menu__submenu">

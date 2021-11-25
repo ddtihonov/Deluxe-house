@@ -1,12 +1,14 @@
-.advantage{
+.beginning{
     max-width: 100%;
     margin: 0 auto;
     background-image: url(../../images/advantage/advantage.jpg);
-    padding: 60px 0 60px 0;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 10px 100px;
 }

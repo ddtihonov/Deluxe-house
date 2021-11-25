@@ -5,6 +5,8 @@ import Footer from "./Footer.js";
 import Main from './Main.js';
 import Housing from './Housing.js';
 import Commercial from './Commercial.js';
+import Repiair from './Repiair.js';
+import Services from './Services.js';
 
 
 export default function App() {
@@ -21,6 +23,12 @@ return (
                         />
                         <Route exact path='/commercial'  element={
                                 <Commercial/>}
+                        />
+                        <Route exact path='/repiair'  element={
+                                <Repiair/>}
+                        />
+                        <Route exact path='/services'  element={
+                                <Services/>}
                         />
                 </Routes>  
                 <Footer />       

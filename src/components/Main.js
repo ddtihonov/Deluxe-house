@@ -5,6 +5,7 @@ import Useful from "./Useful"
 import We from "./We"
 import Portfolio from "./Portfolio"
 import Advantage from "./Advantage"
+import Positives from "./Positives"
 
 export default function Main () {
 
@@ -14,6 +15,7 @@ export default function Main () {
         <We/>
         <Portfolio/>
         <Advantage/>
+        <Positives/>
         <Useful/>
         <Steps/>
         <Partners/>

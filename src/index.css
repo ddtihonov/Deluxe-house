@@ -163,6 +163,18 @@
 /*Подключаем link-aim*/
 @import url(./blocks/link-aim/link-aim.css);
 
+/*подключаем beginning и другие шапки*/
+@import url(./blocks/beginning/beginning.css);
+@import url(./blocks/beginning/__text/beginning__text.css);
+@import url(./blocks/commercial/commercial.css);
+@import url(./blocks/repiair/repiair.css);
+@import url(./blocks/services/services.css);
+
+/*подключаем paragraph*/
+@import url(./blocks/paragraph/paragraph.css);
+@import url(./blocks/paragraph/__text/paragraph__text.css);
+@import url(./blocks/paragraph/__title/paragraph__title.css);
+
 /*.menu-mobile{
     background-color: rgba(27, 27, 27, 1);
     position: fixed;
