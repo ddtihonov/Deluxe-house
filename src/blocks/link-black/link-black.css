@@ -1,0 +1,32 @@
+.link-black{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #E1DECE;
+    color: #E1DECE;
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 5px;
+    transition: all 0.3s
+}
+
+.link-black:hover{
+    color: #1B1B1B;
+    background-color: #E1DECE;
+    transition: all 0.3s
+}
+
+.link-black__margin {
+    margin-left: 50px;
+}
+
+@media (max-width: 575px){
+    .link-black__margin {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+}

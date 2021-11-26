@@ -2,8 +2,8 @@ import inst from '../images/footer/inst.svg'
 import vk from '../images/footer/vk.svg'
 import fb from '../images/footer/fb.svg'
 import pint from '../images/footer/pint.svg'
-import LOGO from '../images/initial/LOGO.svg'
-import INTERIOR_DESIGN from '../images/initial/INTERIOR_DESIGN.png'
+import LOGO from '../images/ini/LOGO.svg'
+import INTERIOR_DESIGN from '../images/ini/INTERIOR_DESIGN.png'
 
 export default function Initial () {
 

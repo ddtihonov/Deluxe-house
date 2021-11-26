@@ -16,7 +16,6 @@
 
 /*Подключаем initial*/
 @import url(./blocks/initial/initial.css);
-@import url(./blocks/initial/__box-image/initial__box-image.css);
 @import url(./blocks/initial/__info/initial__info.css);
 @import url(./blocks/initial/__title/initial__title.css);
 @import url(./blocks/initial/__subtitle/initial__subtitle.css);
@@ -28,6 +27,7 @@
 @import url(./blocks/initial/__logo/initial__logo.css);
 @import url(./blocks/initial/__list/initial__list.css);
 @import url(./blocks/initial/__link/initial__link.css);
+@import url(./blocks/initial/__box-image/initial__box-image.css);
 
 /*Подключаем we*/
 @import url(./blocks/we/we.css);
@@ -175,6 +175,16 @@
 @import url(./blocks/paragraph/__text/paragraph__text.css);
 @import url(./blocks/paragraph/__title/paragraph__title.css);
 
+/*подключаем link-black*/
+@import url(./blocks/link-black/link-black.css);
+
+/*подключаем main*/
+@import url(./blocks/main/__info/main__info.css);
+@import url(./blocks/main/__box/main__box.css);
+@import url(./blocks/main/__link/main__link.css);
+@import url(./blocks/main/__text/main__text.css);
+@import url(./blocks/main/__title/main__title.css);
+
 /*.menu-mobile{
     background-color: rgba(27, 27, 27, 1);
     position: fixed;
@@ -260,35 +270,12 @@
     }
 }*/
 
-.link-black{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    width: 200px;
-    height: 50px;
-    border: 1px solid #E1DECE;
-    color: #E1DECE;
-    background-color: transparent;
-    font-size: 14px;
-    line-height: 16px;
-    border-radius: 5px;
-    transition: all 0.3s
-}
 
-.link-black:hover{
-    color: #1B1B1B;
-    background-color: #E1DECE;
-    transition: all 0.3s
-}
 
-.link-black__margin {
-    margin-left: 50px;
-}
 
-@media (max-width: 575px){
-    .link-black__margin {
-        margin-left: 0;
-        margin-top: 30px;
-    }
-}
+
+
+
+
+
+
