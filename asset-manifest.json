@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Deluxe-house/static/css/main.d7c7aa85.chunk.css",
-    "main.js": "/Deluxe-house/static/js/main.de340ca3.chunk.js",
-    "main.js.map": "/Deluxe-house/static/js/main.de340ca3.chunk.js.map",
+    "main.css": "/Deluxe-house/static/css/main.ca775a83.chunk.css",
+    "main.js": "/Deluxe-house/static/js/main.a4f9f00b.chunk.js",
+    "main.js.map": "/Deluxe-house/static/js/main.a4f9f00b.chunk.js.map",
     "runtime-main.js": "/Deluxe-house/static/js/runtime-main.b5deec64.js",
     "runtime-main.js.map": "/Deluxe-house/static/js/runtime-main.b5deec64.js.map",
     "static/js/2.474cbdae.chunk.js": "/Deluxe-house/static/js/2.474cbdae.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.fc89a56a.chunk.js": "/Deluxe-house/static/js/3.fc89a56a.chunk.js",
     "static/js/3.fc89a56a.chunk.js.map": "/Deluxe-house/static/js/3.fc89a56a.chunk.js.map",
     "index.html": "/Deluxe-house/index.html",
-    "static/css/main.d7c7aa85.chunk.css.map": "/Deluxe-house/static/css/main.d7c7aa85.chunk.css.map",
+    "static/css/main.ca775a83.chunk.css.map": "/Deluxe-house/static/css/main.ca775a83.chunk.css.map",
     "static/js/2.474cbdae.chunk.js.LICENSE.txt": "/Deluxe-house/static/js/2.474cbdae.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Deluxe-house/static/media/services.f08abf38.png",
     "static/media/INTERIOR_DESIGN.b73b5283.png": "/Deluxe-house/static/media/INTERIOR_DESIGN.b73b5283.png",
@@ -63,7 +63,7 @@
   "entrypoints": [
     "static/js/runtime-main.b5deec64.js",
     "static/js/2.474cbdae.chunk.js",
-    "static/css/main.d7c7aa85.chunk.css",
-    "static/js/main.de340ca3.chunk.js"
+    "static/css/main.ca775a83.chunk.css",
+    "static/js/main.a4f9f00b.chunk.js"
   ]
 }
