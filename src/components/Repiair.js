@@ -18,9 +18,19 @@ export default function Repiair () {
     return (
         <>
         <section className="repiair">
-        <p className="beginning__text">Наш богатый опыт ведения контроля за отделочными работами позволил нам наладить менеджмент на высоком уровне профессионализма.</p>
-        <p className="beginning__text">С нами ремонт и отделка квартир и общественных помещений станут приятным событием. Производить все работы по ремонту и отделке будет большая высоко квалифицированная бригада мастеров со стажем ремонтно-отделочных работ более 10 лет.</p>
+        <div className="main__info">
+                <h2 className="main__title">Ремонт квартир любой сложности</h2>
+                <div className="main__box">
+                    <Link className="main__link" to="/">Главная</Link>
+                    <p className="main__text">/Ремонт</p>
+                </div>
+            </div>
         </section>
+        <div className="paragraph">
+                <h2 className="paragraph__title">Что мы можем предложить?</h2>
+                <p className="paragraph__text">Наш богатый опыт ведения контроля за отделочными работами позволил нам наладить менеджмент на высоком уровне профессионализма.</p>
+                <p className="paragraph__text">С нами ремонт и отделка квартир и общественных помещений станут приятным событием. Производить все работы по ремонту и отделке будет большая высоко квалифицированная бригада мастеров со стажем ремонтно-отделочных работ более 10 лет.</p>
+        </div>
         <section className="portfolio">
             <h2 className="paragraph__title">Более 200 успешных проектов</h2>
             <div className="line"></div>

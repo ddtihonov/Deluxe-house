@@ -1,7 +1,7 @@
 .repiair{
     max-width: 100%;
     margin: 0 auto;
-    background-image: url(../../images/repiair/repiair.png);
+    background-image: url(../../images/repiair/repiair.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,5 +10,4 @@
     align-items: center;
     justify-content: center;
     align-items: center;
-    padding: 100px 10px 100px;
 }

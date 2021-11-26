@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import we_image from '../images/we/we_image.png'
 import title from '../images/we/title.svg'
 import about_2 from '../images/we/about_2.svg'
@@ -43,6 +44,9 @@ export default function We () {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="button__box">
+                <Link className="link-black" to="/services">Услуги и цены</Link>
             </div>
     </section>   
 )

@@ -7,6 +7,9 @@ import Housing from './Housing.js';
 import Commercial from './Commercial.js';
 import Repiair from './Repiair.js';
 import Services from './Services.js';
+import Team from './Team.js';
+import Contacts from './Contacts.js';
+import Articles from './Articles.js';
 
 
 export default function App() {
@@ -27,6 +30,15 @@ return (
                         <Route exact path='/services'  element={
                                 <Services/>}
                         />
+                        <Route  path='/team'  element={
+                                <Team/>}
+                        />
+                        <Route  path='/contacts'  element={
+                                <Contacts/>}
+                        />
+                        <Route  path='/articles'  element={
+                                <Articles/>}
+                        />
                         <Route  path='/'  element={
                                 <Main/>}
                         />
@@ -35,5 +47,3 @@ return (
         </div>
 );
 }
-
-//Housing

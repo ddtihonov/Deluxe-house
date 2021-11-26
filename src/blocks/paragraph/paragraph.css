@@ -1,3 +1,11 @@
 .paragraph{
     padding: 0 20px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+@media (max-width: 768px){
+    .paragraph{
+        margin-bottom: 50px;
+    }
 }

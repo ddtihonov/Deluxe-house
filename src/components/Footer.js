@@ -38,6 +38,7 @@ export default function Footer () {
                 <p className="footer__text">dh.studio.kz@gmail.com</p>
             </div>
             <div className="footer__map">
+                <img className="footer__map_image" src={map} alt="карта"/>
             </div>
         </div>
         <div className="footer__copyright">

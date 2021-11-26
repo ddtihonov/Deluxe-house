@@ -24,9 +24,9 @@ export default function Header() {
                             </ul>
                         </a>
                     </li>
-                    <li className="menu__item"><a href="#" className="menu__link">О нас</a></li>
-                    <li className="menu__item"><a href="#" className="menu__link">Статьи</a></li>
-                    <li className="menu__item"><a href="#" className="menu__link">Контакты</a></li>
+                    <li className="menu__item"><Link className="menu__link" to="/team">О нас</Link></li>
+                    <li className="menu__item"><Link className="menu__link" to="/articles">Статьи</Link></li>
+                    <li className="menu__item"><Link className="menu__link" to="/contacts">Контакты</Link></li>
                 </ul>
             </nav>
         </div>
