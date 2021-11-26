@@ -15,9 +15,6 @@ return (
         <div className="page">
                 <Header />
                 <Routes>
-                        <Route exact path='/'  element={
-                                <Main/>}
-                        />
                         <Route exact path='/housing'  element={
                                 <Housing/>}
                         />
@@ -29,6 +26,9 @@ return (
                         />
                         <Route exact path='/services'  element={
                                 <Services/>}
+                        />
+                        <Route  path='/'  element={
+                                <Main/>}
                         />
                 </Routes>  
                 <Footer />       
