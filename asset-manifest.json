@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Deluxe-house/static/css/main.c28ca7a3.chunk.css",
-    "main.js": "/Deluxe-house/static/js/main.352813eb.chunk.js",
-    "main.js.map": "/Deluxe-house/static/js/main.352813eb.chunk.js.map",
+    "main.css": "/Deluxe-house/static/css/main.71e34231.chunk.css",
+    "main.js": "/Deluxe-house/static/js/main.62c6e82a.chunk.js",
+    "main.js.map": "/Deluxe-house/static/js/main.62c6e82a.chunk.js.map",
     "runtime-main.js": "/Deluxe-house/static/js/runtime-main.b5deec64.js",
     "runtime-main.js.map": "/Deluxe-house/static/js/runtime-main.b5deec64.js.map",
     "static/js/2.7cd56a90.chunk.js": "/Deluxe-house/static/js/2.7cd56a90.chunk.js",
@@ -10,12 +10,18 @@
     "static/js/3.fc89a56a.chunk.js": "/Deluxe-house/static/js/3.fc89a56a.chunk.js",
     "static/js/3.fc89a56a.chunk.js.map": "/Deluxe-house/static/js/3.fc89a56a.chunk.js.map",
     "index.html": "/Deluxe-house/index.html",
-    "static/css/main.c28ca7a3.chunk.css.map": "/Deluxe-house/static/css/main.c28ca7a3.chunk.css.map",
+    "static/css/main.71e34231.chunk.css.map": "/Deluxe-house/static/css/main.71e34231.chunk.css.map",
     "static/js/2.7cd56a90.chunk.js.LICENSE.txt": "/Deluxe-house/static/js/2.7cd56a90.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Deluxe-house/static/media/team.80ca6eca.jpg",
     "static/media/INTERIOR_DESIGN.b73b5283.png": "/Deluxe-house/static/media/INTERIOR_DESIGN.b73b5283.png",
     "static/media/LOGO.7c9f528e.svg": "/Deluxe-house/static/media/LOGO.7c9f528e.svg",
     "static/media/about_2.c417906d.svg": "/Deluxe-house/static/media/about_2.c417906d.svg",
+    "static/media/articles_1.c4a854cd.png": "/Deluxe-house/static/media/articles_1.c4a854cd.png",
+    "static/media/articles_2.5042a1a2.png": "/Deluxe-house/static/media/articles_2.5042a1a2.png",
+    "static/media/articles_3.9894e29d.png": "/Deluxe-house/static/media/articles_3.9894e29d.png",
+    "static/media/articles_4.4e45db5d.png": "/Deluxe-house/static/media/articles_4.4e45db5d.png",
+    "static/media/articles_5.52755744.png": "/Deluxe-house/static/media/articles_5.52755744.png",
+    "static/media/articles_6.5f561316.png": "/Deluxe-house/static/media/articles_6.5f561316.png",
     "static/media/as-plus.9e270c0d.png": "/Deluxe-house/static/media/as-plus.9e270c0d.png",
     "static/media/design_1.100fa776.png": "/Deluxe-house/static/media/design_1.100fa776.png",
     "static/media/design_1.a8bb5215.png": "/Deluxe-house/static/media/design_1.a8bb5215.png",
@@ -63,7 +69,7 @@
   "entrypoints": [
     "static/js/runtime-main.b5deec64.js",
     "static/js/2.7cd56a90.chunk.js",
-    "static/css/main.c28ca7a3.chunk.css",
-    "static/js/main.352813eb.chunk.js"
+    "static/css/main.71e34231.chunk.css",
+    "static/js/main.62c6e82a.chunk.js"
   ]
 }
