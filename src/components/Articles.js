@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import CardArticle from "./CardArticle"
 
 import articles_1 from '../images/articles/articles_1.png'
 import articles_2 from '../images/articles/articles_2.png'
@@ -28,60 +29,36 @@ export default function Articles () {
         <h2 className="title__smoll">Интересные статьи</h2>
         <div className="line"></div>    
         <ul className="articles__table">
-                <li className="articles__card">
-                    <img className="articles__image" src={articles_1} alt="дизайн интерьера"/>
-                    <h3 className="articles__title">О сочетании фактур в интерьере</h3>
-                    <p className="articles__text">Одним из немаловажных факторов, влияющих на восприятие общей картины дизайна того или иного помещения, является гармоничное сочетание различных фактур. Не стоит путать понятия «фактура»…</p>
-                    <div className="articles__box">
-                        <div className="articles__line"></div>
-                        <a className="articles__link" href="#">подробнее</a>
-                    </div>
-                </li>
-                <li className="articles__card">
-                    <img className="articles__image" src={articles_2} alt="дизайн интерьера"/>
-                    <h3 className="articles__title">Декоративная штукатурка</h3>
-                    <p className="articles__text">Декоративная штукатурка — это красивый и необычный способ оформления интерьера, однако ее стоимость довольно высока. В этой статье…</p>
-                    <div className="articles__box">
-                        <div className="articles__line"></div>
-                        <a className="articles__link" href="#">подробнее</a>
-                    </div>
-                </li>
-                <li className="articles__card">
-                    <img className="articles__image" src={articles_3} alt="дизайн интерьера"/>
-                    <h3 className="articles__title">Что учесть в проекте кухни?</h3>
-                    <p className="articles__text">Кухня — это самое трудозатратное в квартире помещение. Грамотно спроектированная кухня облегчит работу хозяйки, укоротив время, которое она тратит…</p>
-                    <div className="articles__box">
-                        <div className="articles__line"></div>
-                        <a className="articles__link" href="#">подробнее</a>
-                    </div>
-                </li>
-                <li className="articles__card">
-                    <img className="articles__image" src={articles_4} alt="дизайн интерьера"/>
-                    <h3 className="articles__title">Как организовать детскую?</h3>
-                    <p className="articles__text">Детская спальня — это мини-мирок живущего в ней ребенка. Он в ней не просто проводит время, а растет и развивается, — а значит, дел у него обычно очень…</p>
-                    <div className="articles__box">
-                        <div className="articles__line"></div>
-                        <a className="articles__link" href="#">подробнее</a>
-                    </div>
-                </li>
-                <li className="articles__card">
-                    <img className="articles__image" src={articles_5} alt="дизайн интерьера"/>
-                    <h3 className="articles__title">Визуально увеличить комнату</h3>
-                    <p className="articles__text">Существует множество приемов для визуального увеличения пространства комнаты. С некоторыми из них мы в этой статье поделимся с нашими читателями. И так, в первую очередь нужно обратить внимание…</p>
-                    <div className="articles__box">
-                        <div className="articles__line"></div>
-                        <a className="articles__link" href="#">подробнее</a>
-                    </div>
-                </li>
-                <li className="articles__card">
-                    <img className="articles__image" src={articles_6} alt="дизайн интерьера"/>
-                    <h3 className="articles__title">Минимализм и простота кухни</h3>
-                    <p className="articles__text">Кухня всегда остается одной из самых часто посещаемых комнат вашего дома и эдаким «коммуникативным центром» всей семьи. Мы готовы поделиться основными простыми советами как привнести…</p>
-                    <div className="articles__box">
-                        <div className="articles__line"></div>
-                        <a className="articles__link" href="#">подробнее</a>
-                    </div>
-                </li>
+                <CardArticle
+                    title="О сочетании фактур в интерьере"
+                    text="Одним из немаловажных факторов, влияющих на восприятие общей картины дизайна того или иного помещения, является гармоничное сочетание различных фактур. Не стоит путать понятия «фактура»…"
+                    image={articles_1}
+                />
+                <CardArticle
+                    title="Декоративная штукатурка"
+                    text="Декоративная штукатурка — это красивый и необычный способ оформления интерьера, однако ее стоимость довольно высока. В этой статье…"
+                    image={articles_2}
+                />
+                <CardArticle
+                    title="Что учесть в проекте кухни?"
+                    text="Кухня — это самое трудозатратное в квартире помещение. Грамотно спроектированная кухня облегчит работу хозяйки, укоротив время, которое она тратит…"
+                    image={articles_3}
+                />
+                <CardArticle
+                    title="Как организовать детскую?"
+                    text="Детская спальня — это мини-мирок живущего в ней ребенка. Он в ней не просто проводит время, а растет и развивается, — а значит, дел у него обычно очень…"
+                    image={articles_4}
+                />
+                <CardArticle
+                    title="Визуально увеличить комнату"
+                    text="Существует множество приемов для визуального увеличения пространства комнаты. С некоторыми из них мы в этой статье поделимся с нашими читателями. И так, в первую очередь нужно обратить внимание…"
+                    image={articles_5}
+                />
+                <CardArticle
+                    title="Минимализм и простота кухни"
+                    text="Кухня всегда остается одной из самых часто посещаемых комнат вашего дома и эдаким «коммуникативным центром» всей семьи. Мы готовы поделиться основными простыми советами как привнести…"
+                    image={articles_6}
+                />
             </ul>
         </div>
         

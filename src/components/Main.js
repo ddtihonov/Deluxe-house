@@ -13,7 +13,9 @@ export default function Main () {
     <main className="content">
         <Initial/>
         <We/>
-        <Portfolio/>
+        <Portfolio
+        title="Наши проекты"
+        />
         <Advantage/>
         <Positives/>
         <Useful/>

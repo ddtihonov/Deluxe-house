@@ -1,6 +1,9 @@
 .menu-mobile__item {
     position: relative;
-    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    padding-top: 11px;
+    padding-bottom: 11px;
 }
 
 .menu-mobile__item:last-child{

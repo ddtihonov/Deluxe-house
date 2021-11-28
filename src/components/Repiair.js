@@ -1,17 +1,7 @@
 import { Link } from 'react-router-dom';
+import Portfolio from './Portfolio';
 
-import design_1 from '../images/portfolio/design_1.png'
-import design_2 from '../images/portfolio/design_2.png'
-import design_3 from '../images/portfolio/design_3.png'
-import design_4 from '../images/portfolio/design_4.png'
-import design_5 from '../images/portfolio/design_5.png'
-import design_6 from '../images/portfolio/design_6.png'
-import design_7 from '../images/portfolio/design_7.png'
-import design_8 from '../images/portfolio/design_8.png'
-import design_9 from '../images/portfolio/design_9.png'
-import design_13 from '../images/portfolio/design_13.png'
-import design_14 from '../images/portfolio/design_14.png'
-import design_12 from '../images/portfolio/design_12.png'
+import we_image from '../images/we/we_image_2.png'
 
 export default function Repiair () {
 
@@ -31,112 +21,26 @@ export default function Repiair () {
                 <p className="paragraph__text">Наш богатый опыт ведения контроля за отделочными работами позволил нам наладить менеджмент на высоком уровне профессионализма.</p>
                 <p className="paragraph__text">С нами ремонт и отделка квартир и общественных помещений станут приятным событием. Производить все работы по ремонту и отделке будет большая высоко квалифицированная бригада мастеров со стажем ремонтно-отделочных работ более 10 лет.</p>
         </div>
-        <section className="portfolio">
-            <h2 className="paragraph__title">Более 200 успешных проектов</h2>
+        <Portfolio
+            title="Более 200 успешных проектов"
+        />
+        <section className="we">
+            <h2 className="title__smoll">Как мы работаем?</h2>
             <div className="line"></div>
-            <ul className="table">
-                <li className="table__card">
-                    <a className="table__link" href="#">
-                        <img className="table__image" src={design_1} alt="дизайн интерьера"/>
-                        <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
-                    <h3 className="table__title">Стильная кухня</h3>
-                    <p className="table__text">Квартира 220 кв.м. в ЖК “Сentral Park”</p>
-                </li>
-                <li className="table__card">
-                    <a className="table__link" href="#">
-                        <img className="table__image" src={design_2} alt="дизайн интерьера"/>
-                        <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
-                    <h3 className="table__title">Светлая и элегантная спальня</h3>
-                    <p className="table__text">Квартира 210 кв.м. в ЖК “Ray Residence”</p>
-                </li>
-                <li className="table__card">
-                    <a className="table__link" href="#">
-                        <img className="table__image" src={design_3} alt="дизайн интерьера"/>
-                        <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
-                    <h3 className="table__title">Атмосфера роскоши и уюта</h3>
-                    <p className="table__text">Квартира 210 кв.м. в ЖК “Ray Residence”</p>
-                </li>
-                <li className="table__card">
-                    <a className="table__link" href="#">
-                        <img className="table__image" src={design_4} alt="дизайн интерьера"/>
-                        <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
-                    <h3 className="table__title">Дом для двух поколений</h3>
-                    <p className="table__text">Дом в мкр. “Дипломатический городок”</p>
-                </li>
-                <li className="table__card">
-                    <a className="table__link" href="#">
-                        <img className="table__image" src={design_5} alt="дизайн интерьера"/>
-                        <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
-                    <h3 className="table__title">Комфортная комната отдыха</h3>
-                    <p className="table__text">Гостевой дом 3000 кв.м. “Heaven Astana”</p>
-                </li>
-                <li className="table__card">
-                    <a className="table__link" href="#">
-                        <img className="table__image" src={design_6} alt="дизайн интерьера"/>
-                        <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
-                    <h3 className="table__title">Спальня для юной леди</h3>
-                    <p className="table__text">Квартира 320 кв.м. в ЖК “Арман”</p>
-                </li>
-                <li className="table__card">
-                    <a className="table__link" href="#">
-                        <img className="table__image" src={design_7} alt="дизайн интерьера"/>
-                        <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
-                    <h3 className="table__title">Бассейн в гостевом доме</h3>
-                    <p className="table__text">Гостевой дом с сауной</p>
-                </li>
-                <li className="table__card">
-                    <a className="table__link" href="#">
-                        <img className="table__image" src={design_8} alt="дизайн интерьера"/>
-                        <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
-                    <h3 className="table__title">Просторная и стильная кухня</h3>
-                    <p className="table__text">Квартира 215 кв.м. в ЖК “Австрийский Квартал”</p>
-                </li>
-                <li className="table__card">
-                    <a className="table__link" href="#">
-                        <img className="table__image" src={design_9} alt="дизайн интерьера"/>
-                        <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
-                    <h3 className="table__title">Яркий интерьер гостиной</h3>
-                    <p className="table__text">Квартира 320 кв.м. в ЖК “Арман”</p>
-                </li>
-                <li className="table__card">
-                    <a className="table__link" href="#">
-                        <img className="table__image" src={design_13} alt="дизайн интерьера"/>
-                        <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
-                    <h3 className="table__title">Стиль — неоклассика. 2020 г.</h3>
-                    <p className="table__text">Коттедж 450 кв.м. в мкр. Family Village</p>
-                </li>
-                <li className="table__card">
-                    <a className="table__link" href="#">
-                        <img className="table__image" src={design_14} alt="дизайн интерьера"/>
-                        <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
-                    <h3 className="table__title">Стиль — лофт. 2020 г.</h3>
-                    <p className="table__text">Квартира 150 кв.м. в ЖК “Dream City”</p>
-                </li>
-                <li className="table__card">
-                    <a className="table__link" href="#">
-                        <img className="table__image" src={design_12} alt="дизайн интерьера"/>
-                        <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
-                    <h3 className="table__title">Изысканная и просторная гостиная</h3>
-                    <p className="table__text">Квартира 215 кв.м. в ЖК “Австрийский Квартал”</p>
-                </li>
-            </ul>
-            <div className="button__box">
-                <Link className="link-black" to="/housing">Жилые помещения</Link>
-                <Link className="link-black link-black__margin" to="/commercial">Коммерческие помещения</Link>
+            <div className="we__box">
+                <img className="we__image" src={we_image} alt="ремонт"/>
+                <div className="we__info">
+                    <p className="we__text">Студия дизайна DELUXE HOUSE уже более 10 лет выполняет услуги по ремонту и отделочным работам квартир, домов и коммерческих помещений. Мы ремонтируем квартиры, делаем отделку офисов, домов в Астане (Нур-Султане) на высоком профессиональном уровне и не затягиваем оговоренные сроки. Для нас очень важно сдавать в эксплуатацию качественно выполненные объекты, поэтому мы всегда стремимся к совершенству в ходе исполнения своих обязательств. В нашей команде только профессионалы высокого уровня квалификации. Мы делает тщательный отбор своих специалистов, для которых ответственность всегда стоит на первом месте. Перед началом ремонта мы всегда оговариваем сроки по каждому из этапов и предупреждаем о возможных проблемах после тщательного осмотра помещения нашими техническими специалистами.
+                        </p>
+                    <p className="we__text">Накопив богатый опыт в работе с помещениями самого разного назначения и сложности, нам удалось сформировать очень сильную команду профессионалов самой высокой квалификации по ремонту и отделке.
+                    </p>
+                    <p className="we__text">Менеджмент ведения всех этапов и бизнесс-процессов был нами хорошо выстроен и отточен. Если Вы цените свое пространство, время, нервы и бюджет, то Вы будете на верном пути, обращаясь в нашу компанию.</p>
+                </div>
             </div>
-        </section>
+            <div className="button__box">
+                <Link className="link-black" to="/services">Услуги и цены</Link>
+            </div>
+        </section>   
         </>
 )
 }

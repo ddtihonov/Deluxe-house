@@ -13,11 +13,11 @@ import design_10 from '../images/portfolio/design_10.png'
 import design_11 from '../images/portfolio/design_11.png'
 import design_12 from '../images/portfolio/design_12.png'
 
-export default function Portfolio () {
+export default function Portfolio (props) {
 
     return (
         <section className="portfolio">
-            <h2 className="title__smoll">Наши проекты</h2>
+            <h2 className="title__smoll">{props.title}</h2>
             <div className="line"></div>
             <ul className="table">
                 <li className="table__card">
