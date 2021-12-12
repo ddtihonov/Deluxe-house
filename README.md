@@ -1,4 +1,4 @@
-## Проект: [DELUXE HOUSE][git]
+### Проект: [DELUXE HOUSE][git]
 [git]:https://ddtihonov.github.io/Deluxe-house/
 ___
 
