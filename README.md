@@ -1,6 +1,7 @@
-### Проект: [DELUXE HOUSE][git]
+## Проект: [DELUXE HOUSE][git]
 [git]:https://ddtihonov.github.io/Deluxe-house/
----
+___
+
 ### О сайте:
 Многостраничный адаптивный веб-сайт дизайн-студии интерьеров DELUXE HOUSE.
 
