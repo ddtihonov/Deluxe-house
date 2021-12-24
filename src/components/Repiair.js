@@ -24,6 +24,20 @@ export default function Repiair () {
         <Portfolio
             title="Более 200 успешных проектов"
         />
+        <section className="payment-procedure">
+            <h2 className="payment-procedure__title">Порядок оплаты</h2>
+            <div className='payment-procedure__container'>
+                <div className='payment-procedure__box'>
+                    <p className='payment-procedure__text'>Грамотно составленный Договор на оказание услуг даст Вам юридическую защищенность. Оплата производится поэтапно:</p>
+                    <p className='payment-procedure__text'><span className='payment-procedure__number'>35% </span> от общей суммы - предоплата</p>
+                    <p className='payment-procedure__text'><span className='payment-procedure__number'>35% </span> от общей суммы - после завершения черновых работ</p>
+                    <p className='payment-procedure__text'><span className='payment-procedure__number'>30% </span> от общей суммы - после ввода объекта в эскплуатацию</p> 
+                </div>
+                <div className='payment-procedure__box'>
+                    <p className='payment-procedure__text'>Мы выполняем свои обязанности качественно, точно в указанные сроки и строго по согласованной заранее цене. На объекте производится технический надзор специалистом. Наши прорабы не только контролируют весь рабочий процесс, но и принимают в нём активное участие. Мы делаем ремонт "под ключ" с установкой дверей, вывозом мусора и уборкой помещения.</p>
+                </div>
+            </div>
+        </section>   
         <section className="we">
             <h2 className="title__smoll">Как мы работаем?</h2>
             <div className="line"></div>
@@ -40,7 +54,7 @@ export default function Repiair () {
             <div className="button__box">
                 <Link className="link-black" to="/services">Услуги и цены</Link>
             </div>
-        </section>   
+        </section>
         </>
 )
 }

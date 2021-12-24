@@ -114,6 +114,11 @@
 @import url(./blocks/menu-mobile/__item/menu-mobile__item.css);
 @import url(./blocks/menu-mobile/__phone-image/menu-mobile__phone-image.css);
 @import url(./blocks/menu-mobile/__phone/menu_mobile__phone.css);
+@import url(./blocks/menu-mobile/__list/menu-mobile__list.css);
+@import url(./blocks/menu-mobile/__link/menu-mobile__link.css);
+@import url(./blocks/menu-mobile/__body/menu-mobile__body.css);
+@import url(./blocks/menu-mobile/__list/_smoll/menu-mobile__list_smoll.css);
+@import url(./blocks/menu-mobile/__link/_smoll/menu-mobile__link_smoll.css);
 
 /*Подключаем table*/
 @import url(./blocks/table/table.css);
@@ -207,32 +212,14 @@
 @import url(./blocks/active/active.css);
 @import url(./blocks/close/close.css);
 
-
-.menu-mobile__list{
-    padding: 100px 0;
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    margin: 0;
-}
-
-.menu-mobile__link{
-    color: #ffffff;
-    text-decoration: none;
-    transition: 1s;
-    position: relative;
-    font-weight: 400;
-    font-family:  "Roboto";
-    font-size: 18px;
-    line-height: 1.15;
-    width: 100%;
-}
-
-.menu-mobile__link:hover{
-    color: #E1DECE;
-    transition: 1s;
-    cursor: pointer;
-}
+/*подключаем payment-procedure*/
+@import url(./blocks/payment-procedure/payment-procedure.css);
+@import url(./blocks/payment-procedure/__container/payment-procedure__container.css);
+@import url(./blocks/payment-procedure/__title/payment-procedure__title.css);
+@import url(./blocks/payment-procedure/__text/payment-procedure__text.css);
+@import url(./blocks/payment-procedure/__gray/payment-procedure__gray.css);
+@import url(./blocks/payment-procedure/__box/payment-procedure__box.css);
+@import url(./blocks/payment-procedure/__number/payment-procedure__number.css);
 
 .bor{
     border: 1px solid red;
@@ -244,24 +231,3 @@
 
 /**************************************/
 /**************************************/
-
-    .menu-mobile__body{
-        width: 100%;
-    }
-
-.menu-mobile__list_smoll{
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    border-bottom: 1px solid #D0D0D0;
-}
-
-.menu-mobile__link_smoll{
-    margin: 0;
-    border-bottom: 1px solid #D0D0D0;
-    padding-top: 11px;
-    padding-bottom: 11px;
-    width: 100%;
-}

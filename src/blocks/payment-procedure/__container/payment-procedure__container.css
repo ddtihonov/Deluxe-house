@@ -1,0 +1,9 @@
+.payment-procedure__container{
+    display: flex;
+}
+
+@media (max-width: 768px){
+    .payment-procedure__container {
+        flex-direction: column;
+    }
+}

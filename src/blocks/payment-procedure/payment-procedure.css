@@ -1,0 +1,21 @@
+.payment-procedure{
+    max-width: 1170px;
+    background-color: #242424;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 10px;
+}
+
+@media (max-width: 1200px){
+    .payment-procedure {
+        width: calc(100% - 80px);
+    }
+}
+
+@media (max-width: 425px){
+    .payment-procedure {
+        width: calc(100% - 40px);
+    }
+}

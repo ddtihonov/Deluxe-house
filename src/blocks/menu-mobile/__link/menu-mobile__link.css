@@ -1,0 +1,17 @@
+.menu-mobile__link{
+    color: #ffffff;
+    text-decoration: none;
+    transition: 1s;
+    position: relative;
+    font-weight: 400;
+    font-family:  "Roboto";
+    font-size: 18px;
+    line-height: 1.15;
+    width: 100%;
+}
+
+.menu-mobile__link:hover{
+    color: #E1DECE;
+    transition: 1s;
+    cursor: pointer;
+}

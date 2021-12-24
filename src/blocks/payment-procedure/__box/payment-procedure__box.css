@@ -1,0 +1,12 @@
+.payment-procedure__box{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+@media (max-width: 768px){
+    .payment-procedure__box{
+        max-width: 100%;
+    }
+}

@@ -15,7 +15,7 @@
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 850px){
     .we__image {
         object-fit: fill;
         max-width: 400px;

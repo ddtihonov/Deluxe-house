@@ -8,6 +8,7 @@
     margin: 0 auto;
     padding-left: 50px;
     padding-right: 50px;
+    position: relative;
 }
 
 @media (max-width: 1020px){

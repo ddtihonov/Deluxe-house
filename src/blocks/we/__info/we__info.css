@@ -1,4 +1,5 @@
 .we__info {
+    max-width: 100%;
     display: flex;
     flex-direction: column;
 }

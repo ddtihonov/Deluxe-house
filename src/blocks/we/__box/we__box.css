@@ -4,7 +4,7 @@
     align-items: flex-start;
 }
 
-@media (max-width: 768px){
+@media (max-width: 850px){
     .we__box {
         flex-direction: column;
         align-items: center;
