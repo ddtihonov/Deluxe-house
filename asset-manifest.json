@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Deluxe-house/static/css/main.4db9180a.chunk.css",
-    "main.js": "/Deluxe-house/static/js/main.c6293bbf.chunk.js",
-    "main.js.map": "/Deluxe-house/static/js/main.c6293bbf.chunk.js.map",
+    "main.css": "/Deluxe-house/static/css/main.7f486d30.chunk.css",
+    "main.js": "/Deluxe-house/static/js/main.b957f247.chunk.js",
+    "main.js.map": "/Deluxe-house/static/js/main.b957f247.chunk.js.map",
     "runtime-main.js": "/Deluxe-house/static/js/runtime-main.b5deec64.js",
     "runtime-main.js.map": "/Deluxe-house/static/js/runtime-main.b5deec64.js.map",
     "static/js/2.7cd56a90.chunk.js": "/Deluxe-house/static/js/2.7cd56a90.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.fc89a56a.chunk.js": "/Deluxe-house/static/js/3.fc89a56a.chunk.js",
     "static/js/3.fc89a56a.chunk.js.map": "/Deluxe-house/static/js/3.fc89a56a.chunk.js.map",
     "index.html": "/Deluxe-house/index.html",
-    "static/css/main.4db9180a.chunk.css.map": "/Deluxe-house/static/css/main.4db9180a.chunk.css.map",
+    "static/css/main.7f486d30.chunk.css.map": "/Deluxe-house/static/css/main.7f486d30.chunk.css.map",
     "static/js/2.7cd56a90.chunk.js.LICENSE.txt": "/Deluxe-house/static/js/2.7cd56a90.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Deluxe-house/static/media/team.80ca6eca.jpg",
     "static/media/INTERIOR_DESIGN.b73b5283.png": "/Deluxe-house/static/media/INTERIOR_DESIGN.b73b5283.png",
@@ -59,6 +59,8 @@
     "static/media/positives_3.2.7e77278f.png": "/Deluxe-house/static/media/positives_3.2.7e77278f.png",
     "static/media/positives_3.e1289bef.png": "/Deluxe-house/static/media/positives_3.e1289bef.png",
     "static/media/positives_4.a331465c.png": "/Deluxe-house/static/media/positives_4.a331465c.png",
+    "static/media/rates_1.7bc63a19.png": "/Deluxe-house/static/media/rates_1.7bc63a19.png",
+    "static/media/rates_2.44259b05.png": "/Deluxe-house/static/media/rates_2.44259b05.png",
     "static/media/repiair_we.f020ad57.png": "/Deluxe-house/static/media/repiair_we.f020ad57.png",
     "static/media/steps_4.41d4da02.png": "/Deluxe-house/static/media/steps_4.41d4da02.png",
     "static/media/steps_5.a0729a67.png": "/Deluxe-house/static/media/steps_5.a0729a67.png",
@@ -70,7 +72,7 @@
   "entrypoints": [
     "static/js/runtime-main.b5deec64.js",
     "static/js/2.7cd56a90.chunk.js",
-    "static/css/main.4db9180a.chunk.css",
-    "static/js/main.c6293bbf.chunk.js"
+    "static/css/main.7f486d30.chunk.css",
+    "static/js/main.b957f247.chunk.js"
   ]
 }
