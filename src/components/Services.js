@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import Steps from './Steps';
 import Portfolio from './Portfolio';
+import Rates from './Rates';
 
 import repiair_we from '../images/repiair/repiair_we.png'
 
@@ -30,6 +31,7 @@ export default function Services () {
                 <p className="paragraph__text">- Дизайн-Проект в электронной версии;</p>
                 <p className="paragraph__text">- Ну, и конечно же, в итоге Вы получите уникальное стильное помещение, которое будет радовать и вдохновлять Вас многие годы!</p>
         </div>
+        <Rates/>
         <Portfolio
             title="Наши проекты"
         />

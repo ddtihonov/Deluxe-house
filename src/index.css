@@ -163,6 +163,8 @@
 /*Подключаем label*/
 @import url(./blocks/label/__as-plus/label__as-plus.css);
 @import url(./blocks/label/__initial/label__initial.css);
+@import url(./blocks/label/__rates/label__rates.css);
+@import url(./blocks/label/__right/label__right.css);
 
 /*Подключаем button*/
 @import url(./blocks/button/button.css);
@@ -221,6 +223,9 @@
 @import url(./blocks/payment-procedure/__box/payment-procedure__box.css);
 @import url(./blocks/payment-procedure/__number/payment-procedure__number.css);
 
+/*подключаем rates*/
+@import url(./blocks/rates/rates.css);
+
 .bor{
     border: 1px solid red;
 }
@@ -231,3 +236,101 @@
 
 /**************************************/
 /**************************************/
+
+
+
+.rates__card {
+    padding: 10px 10px 0 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    background-color:#FAF8F5;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.rates__header{
+    width: 100%;
+    background-color: #E1DECE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.rates__header_text{
+    color: #191919;
+    font-family: 'Forum';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.rates__header_title{
+    color: #191919;
+    margin: 5px 0 0;
+    font-family: 'Forum';
+    font-size: 25px;
+    line-height: 26px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.rates__title{
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 24px;
+    text-align: center;
+    color: #191919;
+}
+
+.rates__subtitle{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 12px;
+    text-align: center;
+    color: #191919;
+}
+
+.rates__text{
+    width: 100%;
+    text-align: start;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 16px;
+    color: #404040;
+    margin: 15px 0;
+}
+
+.rates__item{
+    width: 100%;
+    text-align: start;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 16px;
+    color: #404040;
+    margin: 0 0 7px;
+}
+
+.rates__button{
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 16px 50px;
+    background: #191919;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    margin: auto auto 10px;
+    transition: .3s;
+}
+
+.rates__button:hover{
+    cursor: pointer;
+    opacity: .9;
+    transition: .3s;
+}

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Portfolio from './Portfolio';
+import RatesRepair from './RatesRepair';
 
 import we_image from '../images/we/we_image_2.png'
 
@@ -37,7 +38,8 @@ export default function Repiair () {
                     <p className='payment-procedure__text'>Мы выполняем свои обязанности качественно, точно в указанные сроки и строго по согласованной заранее цене. На объекте производится технический надзор специалистом. Наши прорабы не только контролируют весь рабочий процесс, но и принимают в нём активное участие. Мы делаем ремонт "под ключ" с установкой дверей, вывозом мусора и уборкой помещения.</p>
                 </div>
             </div>
-        </section>   
+        </section>
+        <RatesRepair/>
         <section className="we">
             <h2 className="title__smoll">Как мы работаем?</h2>
             <div className="line"></div>

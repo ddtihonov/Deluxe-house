@@ -1,0 +1,9 @@
+.rates{
+    max-width: 1170px;
+    position: relative;
+    margin: 0 auto;
+    padding: 60px 0 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
