@@ -43,7 +43,7 @@ return (
                                 <Main/>}
                         />
                 </Routes>  
-                <Footer />       
+                <Footer />     
         </div>
 );
 }

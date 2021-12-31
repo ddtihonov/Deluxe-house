@@ -226,6 +226,20 @@
 /*подключаем rates*/
 @import url(./blocks/rates/rates.css);
 
+/*подключаем popup*/
+@import url(./blocks/popup/popup.css);
+@import url(./blocks/popup/__container/popup__container.css);
+@import url(./blocks/popup/_opened/popup_opened.css);
+@import url(./blocks/popup/__close-icon/popup__close-icon.css);
+
+/*подключаем form*/
+@import url(./blocks/form/form.css);
+@import url(./blocks/form/__title/form__title.css);
+@import url(./blocks/form/__label/form__label.css);
+@import url(./blocks/form/__input/form__input.css);
+@import url(./blocks/form/__button/form__button.css);
+@import url(./blocks/form/__text/form__text.css);
+
 .bor{
     border: 1px solid red;
 }

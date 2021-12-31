@@ -1,11 +1,40 @@
+import React, { useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import Portfolio from './Portfolio';
 import RatesRepair from './RatesRepair';
+import Popup from './Popup.js';
 
 import we_image from '../images/we/we_image_2.png'
 
 export default function Repiair () {
+    const [isPopupOpen, setIsPopupOpen] = useState(false);
 
+    const handlePopup = () => {
+        setIsPopupOpen(true);
+    }
+
+    const closeAllPopups = () => {
+        setIsPopupOpen(false);
+    }
+
+    // обработчики закрытия
+    function handleClosePopup(evt) {
+        if (
+            evt.target.classList.contains('popup')
+        ) {
+            closeAllPopups();
+        }
+    }
+
+    useEffect(() => {
+        function handleEscClose(evt) {
+            if (evt.keyCode === 27) closeAllPopups();
+        }
+    
+        document.addEventListener('keydown', handleEscClose);
+    
+        return () => document.removeEventListener('keydown', handleEscClose);
+    }, []);
     return (
         <>
         <section className="repiair">
@@ -39,7 +68,9 @@ export default function Repiair () {
                 </div>
             </div>
         </section>
-        <RatesRepair/>
+        <RatesRepair
+            openPopup={handlePopup}
+        />
         <section className="we">
             <h2 className="title__smoll">Как мы работаем?</h2>
             <div className="line"></div>
@@ -57,6 +88,11 @@ export default function Repiair () {
                 <Link className="link-black" to="/services">Услуги и цены</Link>
             </div>
         </section>
+        <Popup
+            isOpen={isPopupOpen} 
+            close={handleClosePopup}
+            onClose={closeAllPopups} 
+        />  
         </>
 )
 }

@@ -1,7 +1,7 @@
 import rates_2 from '../images/rates/rates_2.png'
 import rates_1 from '../images/rates/rates_1.png'
 
-export default function RatesRepair () {
+export default function RatesRepair (props) {
 
     return (
     <section className="rates">
@@ -32,7 +32,7 @@ export default function RatesRepair () {
                 <p className="rates__item">- Расчет расходуемых материалов;</p>
                 <p className="rates__item">- Закуп/прием материалов;</p>
                 <p className="rates__item">- Уборка помещения.</p>
-                <button className="rates__button">ЗАКАЗАТЬ УСЛУГУ</button>
+                <button className="rates__button" onClick={props.openPopup}>ЗАКАЗАТЬ УСЛУГУ</button>
             </li>
             <li className="rates__card">
             <div className="rates__header">
@@ -49,7 +49,7 @@ export default function RatesRepair () {
                 <p className="rates__item">- Монтаж и установка всех видов освещения (трековые светильники, софиты, светодиодная подсветка и другое);</p>
                 <p className="rates__item">- Поклейка фотообоев;</p>
                 <p className="rates__item">-Установка и монтаж мелких деталей (ключки, зеркала, ограничители открывания дверей и т.д.).</p>
-                <button className="rates__button">ЗАКАЗАТЬ УСЛУГУ</button>
+                <button className="rates__button" onClick={props.openPopup}>ЗАКАЗАТЬ УСЛУГУ</button>
             </li>
             <li className="rates__card">
             <div className="rates__header">
@@ -65,7 +65,7 @@ export default function RatesRepair () {
                 <p className="rates__item">- Монтаж и установка металлических конструкций (лестницы, сцены, дополнительный этаж и другое);</p>
                 <p className="rates__item">- Монтаж и установка элементов интерьера из натурального/искусственного камня, МДФ, гипса, пластика и дерева;</p>
                 <p className="rates__item">- Клининг.</p>
-                <button className="rates__button">ЗАКАЗАТЬ УСЛУГУ</button>
+                <button className="rates__button" onClick={props.openPopup}>ЗАКАЗАТЬ УСЛУГУ</button>
             </li>
             <li className="rates__card">
             <div className="rates__header">
@@ -80,7 +80,7 @@ export default function RatesRepair () {
                 <p className="rates__item">- Подбор всех материалов, мебели, элементов декора;</p>
                 <p className="rates__item">- Надзор за исполнением сторонних исполнителей (производство мебели и другое);</p>
                 <p className="rates__item">- Технический инженерный надзор.</p>
-                <button className="rates__button">ЗАКАЗАТЬ УСЛУГУ</button>
+                <button className="rates__button" onClick={props.openPopup}>ЗАКАЗАТЬ УСЛУГУ</button>
             </li>
         </ul>
     </section>   

@@ -1,0 +1,20 @@
+.popup__close-icon{
+    position: absolute;
+    background-color: transparent;
+    color: #555;
+    padding: 0;
+    border: none;
+    width: 30px;
+    height: 30px;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.popup__close-icon svg {
+    fill: transparent;
+    opacity: .8;
+    stroke: currentColor;
+    stroke-width: 1.5;
+    transition: stroke .1s;
+}

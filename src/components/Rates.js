@@ -1,6 +1,7 @@
+import React from 'react';
 import INTERIOR_DESIGN from '../images/ini/INTERIOR_DESIGN.png'
 
-export default function Rates () {
+export default function Rates (props) {
 
     return (
     <section className="rates">
@@ -26,7 +27,7 @@ export default function Rates () {
                 <p className="rates__item">- Карта напольных покрытий;</p>
                 <p className="rates__item">- Развертка стен</p>
                 <p className="rates__item">- Расчет расходуемых материалов чистовой отделки.</p>
-                <button className="rates__button">ЗАКАЗАТЬ УСЛУГУ</button>
+                <button className="rates__button" onClick={props.openPopup} type="button" aria-label="заказать звонок">ЗАКАЗАТЬ УСЛУГУ</button>
             </li>
             <li className="rates__card">
             <div className="rates__header">
@@ -42,7 +43,7 @@ export default function Rates () {
                 <p className="rates__item">- Раскладка плитки;</p>
                 <p className="rates__item">- Список рекомендуемых магазинов с учетом Вашего бюджета;</p>
                 <p className="rates__item">- Контакты проверенных производителей мебели, элементов и конструкций интерьера.</p>
-                <button className="rates__button">ЗАКАЗАТЬ УСЛУГУ</button>
+                <button className="rates__button" onClick={props.openPopup} type="button" aria-label="заказать звонок">ЗАКАЗАТЬ УСЛУГУ</button>
             </li>
             <li className="rates__card">
             <div className="rates__header">
@@ -57,7 +58,7 @@ export default function Rates () {
                 <p className="rates__item">- Консультация рабочей бригады с выездом дизайнера 2 раза в неделю с целью координации на соответствие с утвержденным Проектом.</p>
                 <p className="rates__text">✔️ ПОДБОР МАТЕРИАЛОВ:</p>
                 <p className="rates__item">- Подбор материалов чистовой отделки; - Подбор мебели, декора, текстиля и аксессуров интерьера в г. Астана.</p>
-                <button className="rates__button">ЗАКАЗАТЬ УСЛУГУ</button>
+                <button className="rates__button" onClick={props.openPopup} type="button" aria-label="заказать звонок">ЗАКАЗАТЬ УСЛУГУ</button>
             </li>
             <li className="rates__card">
             <div className="rates__header">
@@ -73,7 +74,7 @@ export default function Rates () {
                 <p className="rates__text">✔️ ПОДБОР МАТЕРИАЛОВ:</p>
                 <p className="rates__item">- Подбор материалов чистовой отделки;</p>
                 <p className="rates__item">- Подбор мебели, декора, текстиля и аксессуров интерьера в г. Астана</p>
-                <button className="rates__button">ЗАКАЗАТЬ УСЛУГУ</button>
+                <button className="rates__button" onClick={props.openPopup} type="button" aria-label="заказать звонок">ЗАКАЗАТЬ УСЛУГУ</button>
             </li>
         </ul>
     </section>
