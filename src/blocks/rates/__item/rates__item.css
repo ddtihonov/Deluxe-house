@@ -1,0 +1,9 @@
+.rates__item{
+    width: 100%;
+    text-align: start;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 16px;
+    color: #404040;
+    margin: 0 0 7px;
+}

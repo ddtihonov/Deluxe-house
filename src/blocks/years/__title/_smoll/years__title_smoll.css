@@ -1,0 +1,16 @@
+.years__title_smoll{
+    text-align: center;
+    font-family: 'Forum';
+    font-weight: 400;
+    color: #191919;
+    font-size: 35px;
+    line-height: 45px;
+    margin: 10px auto 30px;
+}
+
+@media (max-width: 768px){
+    .years__title_smoll{
+        font-size: 30px;
+        line-height: 35px;
+    }
+}

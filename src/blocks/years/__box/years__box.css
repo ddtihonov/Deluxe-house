@@ -1,0 +1,19 @@
+.years__box{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 1020px){
+    .years__box{
+        width: calc(100% - 80px);
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 425px){
+    .years__box{
+        width: calc(100% - 40px);
+    }
+}

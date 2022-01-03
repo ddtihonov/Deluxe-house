@@ -1,0 +1,10 @@
+.rates__card {
+    padding: 10px 10px 0 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    background-color:#FAF8F5;
+    border-radius: 5px;
+    margin: 10px;
+}

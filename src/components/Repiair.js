@@ -2,7 +2,8 @@ import React, { useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import Portfolio from './Portfolio';
 import RatesRepair from './RatesRepair';
-import Popup from './Popup.js';
+import Popup from './Popup.js'; 
+import img from '../images/repiair/img.png'
 
 import we_image from '../images/we/we_image_2.png'
 
@@ -68,6 +69,18 @@ export default function Repiair () {
                 </div>
             </div>
         </section>
+        <section className="time">
+            <div className="time__box">
+                <button className="time__button" type="submit">Ремонт без дизайна со стандартным ремонтом</button>
+                <button className="time__button" type="submit">Ремонт с дизайном и нестандартным ремонтом</button>
+            </div>
+            <ul className="time__list">
+                <li className="time__item"></li>
+                <li className="time__item time__item_light"></li>
+                <li className="time__item"></li>
+                <li className="time__item time__item_light"></li>
+            </ul>
+        </section>                          
         <RatesRepair
             openPopup={handlePopup}
         />
@@ -88,6 +101,8 @@ export default function Repiair () {
                 <Link className="link-black" to="/services">Услуги и цены</Link>
             </div>
         </section>
+        <img className="repiair__img" src={img} alt="надпись"/>
+        <div></div>
         <Popup
             isOpen={isPopupOpen} 
             close={handleClosePopup}

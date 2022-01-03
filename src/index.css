@@ -128,6 +128,7 @@
 @import url(./blocks/table/__title/table__title.css);
 @import url(./blocks/table/__image/table__image.css);
 @import url(./blocks/table/__link/table__link.css);
+@import url(./blocks/table/__image/_people/table__image_people.css);
 
 /*Подключаем table-smoll*/
 @import url(./blocks/table-smoll/table-smoll.css);
@@ -135,6 +136,7 @@
 @import url(./blocks/table-smoll/__image/table-smoll__image.css);
 @import url(./blocks/table-smoll/__title/table-smoll__title.css);
 @import url(./blocks/table-smoll/__text/table-smoll__text.css);
+@import url(./blocks/table-smoll/__card/_people/table-smoll__card_people.css);
 
 /*Подключаем line*/
 @import url(./blocks/line/line.css);
@@ -225,6 +227,15 @@
 
 /*подключаем rates*/
 @import url(./blocks/rates/rates.css);
+@import url(./blocks/rates/__card/rates__card.css);
+@import url(./blocks/rates/__title/rates__title.css);
+@import url(./blocks/rates/__text/rates__text.css);
+@import url(./blocks/rates/__item/rates__item.css);
+@import url(./blocks/rates/__button/rates__button.css);
+@import url(./blocks/rates/__subtitle/rates__subtitle.css);
+@import url(./blocks/rates/__header/rates__header.css);
+@import url(./blocks/rates/__header/_text/rates__header_text.css);
+@import url(./blocks/rates/__header/_title/rates__header_title.css);
 
 /*подключаем popup*/
 @import url(./blocks/popup/popup.css);
@@ -240,6 +251,16 @@
 @import url(./blocks/form/__button/form__button.css);
 @import url(./blocks/form/__text/form__text.css);
 
+/*подключаем years*/
+@import url(./blocks/years/years.css);
+@import url(./blocks/years/__box/years__box.css);
+@import url(./blocks/years/__text/years__text.css);
+@import url(./blocks/years/__title/years__title.css);
+@import url(./blocks/years/__img/years__img.css);
+@import url(./blocks/years/__title/_smoll/years__title_smoll.css);
+@import url(./blocks/years/__title/_big/years__title_big.css);
+@import url(./blocks/years/__container/years__container.css);
+
 .bor{
     border: 1px solid red;
 }
@@ -250,101 +271,87 @@
 
 /**************************************/
 /**************************************/
-
-
-
-.rates__card {
-    padding: 10px 10px 0 10px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 250px;
-    background-color:#FAF8F5;
-    border-radius: 5px;
-    margin: 10px;
-}
-
-.rates__header{
+.repiair__img{
     width: 100%;
-    background-color: #E1DECE;
+}
+
+.time{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 20px 10px 80px;
+}
+
+.time__box{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5px 0;
 }
 
-.rates__header_text{
-    color: #191919;
-    font-family: 'Forum';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    font-weight: 900;
-    margin: 0;
-}
-
-.rates__header_title{
-    color: #191919;
-    margin: 5px 0 0;
-    font-family: 'Forum';
-    font-size: 25px;
-    line-height: 26px;
-    font-weight: 900;
-    text-align: center;
-}
-
-.rates__title{
-    margin: 10px 0;
+.time__button{
+    width: 50%;
+    padding: 20px 10px;
+    color: #E1DECE;
+    border: 1px solid #E1DECE;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 18px;
+    line-height: 20px;
     font-weight: 700;
-    font-size: 23px;
-    line-height: 24px;
-    text-align: center;
-    color: #191919;
-}
-
-.rates__subtitle{
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 12px;
-    text-align: center;
-    color: #191919;
-}
-
-.rates__text{
-    width: 100%;
-    text-align: start;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 16px;
-    color: #404040;
-    margin: 15px 0;
-}
-
-.rates__item{
-    width: 100%;
-    text-align: start;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 16px;
-    color: #404040;
-    margin: 0 0 7px;
-}
-
-.rates__button{
-    font-size: 14px;
-    line-height: 16px;
-    color: #FFFFFF;
-    padding: 16px 50px;
-    background: #191919;
-    border-radius: 5px;
-    border: none;
-    width: 100%;
-    margin: auto auto 10px;
-    transition: .3s;
-}
-
-.rates__button:hover{
     cursor: pointer;
-    opacity: .9;
     transition: .3s;
+}
+
+.time__button:focus{
+    background: #E1DECE;
+    color: #191919;
+}
+
+@media (max-width: 768px){
+    .time__button{
+        font-size: 14px;
+        line-height: 1.25;
+    }
+}
+
+@media (max-width: 425px){
+    .time__button{
+        font-size: 10px;
+        line-height: 1.25;
+    }
+}
+
+.time__list{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 20px auto 0;
+}
+
+.time__item{
+    width: 25%;
+    background-color: #E8E6E0;
+    height: 50px;
+}
+
+.time__item_light{
+    background-color: #FAF8F5;
+}
+
+.team__box{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.team__video{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.team__img{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.people{
+    max-width: 1400px;
+    margin: 0 auto;
 }

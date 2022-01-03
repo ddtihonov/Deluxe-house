@@ -40,8 +40,8 @@ export default function Advantage () {
             </li>
         </ul>
         <div className="button__box">
-            <button className="button">О НАШЕЙ КОМАНДЕ</button>
-            <button className="button button__margin">ПОЛЕЗНЫЕ СОВЕТЫ</button>
+            <Link className="link-black" to="/team">О НАШЕЙ КОМАНДЕ</Link>
+            <Link className="link-black link-black__margin" to="/articles">СТАТЬИ О ДИЗАЙНЕ</Link>
         </div>
     </section>
 )

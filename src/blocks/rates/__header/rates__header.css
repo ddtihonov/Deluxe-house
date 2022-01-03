@@ -1,0 +1,8 @@
+.rates__header{
+    width: 100%;
+    background-color: #E1DECE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0;
+}

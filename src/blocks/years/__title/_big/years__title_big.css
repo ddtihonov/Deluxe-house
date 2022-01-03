@@ -1,0 +1,15 @@
+.years__title_big{
+    font-family: 'Forum';
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 45px;
+    color: #191919;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    .years__title_big{
+        font-size: 70px;
+        line-height: 35px;
+    }
+}

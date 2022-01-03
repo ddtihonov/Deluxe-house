@@ -1,0 +1,14 @@
+.years__text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #191919;
+    margin-top: 0;
+}
+
+@media (max-width: 768px){
+    .years__text{
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

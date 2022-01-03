@@ -1,0 +1,9 @@
+.rates__text{
+    width: 100%;
+    text-align: start;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 16px;
+    color: #404040;
+    margin: 15px 0;
+}
