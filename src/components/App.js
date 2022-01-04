@@ -14,6 +14,7 @@ import PageTemplate from './PageTemplate.js';
 import Escort from './Escort.js';
 import DraftProject from './DraftProject.js';
 import TechnicalTask from './TechnicalTask.js';
+import WorkingDraft from './WorkingDraft.js';
 
 
 export default function App() {
@@ -55,10 +56,8 @@ return (
                         <Route  exact path='/technical-task'  element={
                                 <TechnicalTask/>}
                         />
-                        <Route  exact path='/article'  element={
-                                <PageTemplate
-                                subtitle={'вася'}
-                                />}
+                        <Route  exact path='/working-draft'  element={
+                                <WorkingDraft/>}
                         />
                 </Routes>  
                 <Footer />     

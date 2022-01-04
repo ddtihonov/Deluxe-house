@@ -27,7 +27,7 @@ export default function Steps () {
                 <img className="steps__image" src={steps_3} alt="иконка"/>
                 <h3 className="steps__subtitle">ЧЕРТЕЖИ</h3>
                 <p className="steps__text">Рабочий Проект со всеми схемами и чертежами - это инструкция не только для проведения строительных работ, он позволит рассчитать расход и стоимость материалов. Самый ответственный этап. Здесь важна точность.</p>
-                <Link className="steps__link" to="/escort">ПОДРОБНЕЕ...</Link>
+                <Link className="steps__link" to="/working-draft">ПОДРОБНЕЕ...</Link>
             </li>
             <li className="steps__cell">
                 <img className="steps__image" src={steps_4} alt="иконка"/>

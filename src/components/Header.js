@@ -27,12 +27,12 @@ export default function Header() {
                     <li className="menu__item"><Link className="menu__link" to="/services">Услуги</Link></li>
                     <li className="menu__item"><Link className="menu__link" to="/repiair">Ремонт</Link></li>
                     <li className="menu__item menu__item_parent">
-                        <a href="#" className="menu__link">Портфолио
+                        <p href="#" className="menu__link">Портфолио
                             <ul className="menu__submenu">
                                 <li className="menu__submenu_item"><Link className="menu__link" to="/housing">Жилые помещения</Link></li>
                                 <li className="menu__submenu_item"><Link className="menu__link" to="/commercial">Коммерческие помещения</Link></li>
                             </ul>
-                        </a>
+                        </p>
                     </li>
                     <li className="menu__item"><Link className="menu__link" to="/team">О нас</Link></li>
                     <li className="menu__item"><Link className="menu__link" to="/articles">Статьи</Link></li>
