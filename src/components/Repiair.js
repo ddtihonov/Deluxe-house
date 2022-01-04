@@ -4,6 +4,7 @@ import Portfolio from './Portfolio';
 import RatesRepair from './RatesRepair';
 import Popup from './Popup.js'; 
 import img from '../images/repiair/img.png'
+import CapRepair from './CapRepair';
 
 import we_image from '../images/we/we_image_2.png'
 
@@ -38,15 +39,10 @@ export default function Repiair () {
     }, []);
     return (
         <>
-        <section className="repiair">
-        <div className="main__info">
-                <h2 className="main__title">Ремонт квартир любой сложности</h2>
-                <div className="main__box">
-                    <Link className="main__link" to="/">Главная</Link>
-                    <p className="main__text">/Ремонт</p>
-                </div>
-            </div>
-        </section>
+        <CapRepair
+            title="Ремонт квартир любой сложности"
+            link="/Ремонт"
+        />
         <div className="paragraph">
                 <h2 className="paragraph__title">Что мы можем предложить?</h2>
                 <p className="paragraph__text">Наш богатый опыт ведения контроля за отделочными работами позволил нам наладить менеджмент на высоком уровне профессионализма.</p>

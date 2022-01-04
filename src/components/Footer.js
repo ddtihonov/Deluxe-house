@@ -17,16 +17,16 @@ export default function Footer () {
                 <p className="footer__text">8 (778) 800-03-40</p>
                 <h4 className="footer__subtitle">Присоединяйтесь</h4>
                 <ul className="footer__list">
-                    <li className="footer__item"><a className="footer__link" target="_blank" href="https://www.instagram.com/dh_studio/">
+                    <li className="footer__item"><a className="footer__link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dh_studio/">
                         <img className="footer__social-icon" src={inst} alt="инстаграмм"/>
                     </a></li>
-                    <li className="footer__item"><a className="footer__link" target="_blank" href="https://vk.com/dh_studio_kz">
+                    <li className="footer__item"><a className="footer__link" target="_blank" rel="noopener noreferrer" href="https://vk.com/dh_studio_kz">
                         <img className="footer__social-icon" src={vk} alt="в контакте"/>
                     </a></li>
-                    <li className="footer__item"><a className="footer__link" target="_blank" href="https://www.facebook.com/DHstudioKZ">
+                    <li className="footer__item"><a className="footer__link" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/DHstudioKZ">
                         <img className="footer__social-icon" src={fb} alt="фейсбук"/>
                     </a></li>
-                    <li className="footer__item"><a className="footer__link" target="_blank" href="https://www.pinterest.ru/dhstudiokz/_created/">
+                    <li className="footer__item"><a className="footer__link" target="_blank" rel="noopener noreferrer" href="https://www.pinterest.ru/dhstudiokz/_created/">
                         <img className="footer__social-icon" src={pint} alt="пинтерест"/>
                     </a></li>
                 </ul>

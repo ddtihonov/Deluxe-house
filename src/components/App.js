@@ -11,6 +11,9 @@ import Team from './Team.js';
 import Contacts from './Contacts.js';
 import Articles from './Articles.js';
 import PageTemplate from './PageTemplate.js';
+import Escort from './Escort.js';
+import DraftProject from './DraftProject.js';
+import TechnicalTask from './TechnicalTask.js';
 
 
 export default function App() {
@@ -42,6 +45,15 @@ return (
                         />
                         <Route  exact path='/'  element={
                                 <Main/>}
+                        />
+                        <Route  exact path='/escort'  element={
+                                <Escort/>}
+                        />
+                        <Route  exact path='/draft-project'  element={
+                                <DraftProject/>}
+                        />
+                        <Route  exact path='/technical-task'  element={
+                                <TechnicalTask/>}
                         />
                         <Route  exact path='/article'  element={
                                 <PageTemplate
