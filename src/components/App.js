@@ -10,6 +10,7 @@ import Services from './Services.js';
 import Team from './Team.js';
 import Contacts from './Contacts.js';
 import Articles from './Articles.js';
+import PageTemplate from './PageTemplate.js';
 
 
 export default function App() {
@@ -30,17 +31,22 @@ return (
                         <Route exact path='/services'  element={
                                 <Services/>}
                         />
-                        <Route  path='/team'  element={
+                        <Route  exact path='/team'  element={
                                 <Team/>}
                         />
-                        <Route  path='/contacts'  element={
+                        <Route  exact path='/contacts'  element={
                                 <Contacts/>}
                         />
-                        <Route  path='/articles'  element={
+                        <Route  exact path='/articles'  element={
                                 <Articles/>}
                         />
-                        <Route  path='/'  element={
+                        <Route  exact path='/'  element={
                                 <Main/>}
+                        />
+                        <Route  exact path='/article'  element={
+                                <PageTemplate
+                                subtitle={'вася'}
+                                />}
                         />
                 </Routes>  
                 <Footer />     

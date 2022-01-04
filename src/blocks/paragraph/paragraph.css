@@ -1,12 +1,12 @@
 .paragraph{
+    max-width: 1170px;
     position: relative;
     padding: 0 20px;
-    margin-bottom: 100px;
-    margin-top: 50px;
+    margin: 50px auto 100px;
 }
 
 @media (max-width: 768px){
     .paragraph{
-        margin-bottom: 50px;
+        margin: 50px auto 50px;
     }
 }
