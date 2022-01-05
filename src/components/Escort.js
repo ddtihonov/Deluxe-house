@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import CapRepair from './CapRepair';
 import esco_1 from '../images/Escort/esco_1.png'
 import esco_2 from '../images/Escort/esco_2.png'
@@ -7,6 +8,11 @@ import esco_5 from '../images/Escort/esco_5.png'
 import esco_6 from '../images/Escort/esco_6.png'
 
 export default function Escort () {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+    
     return (
         <>
         <CapRepair

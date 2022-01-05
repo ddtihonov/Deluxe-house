@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import CapRepair from './CapRepair';
 import img_1 from '../images/WorkingDraft/img_1.png'
 import img_2 from '../images/WorkingDraft/img_2.png'
@@ -10,6 +11,11 @@ import img_8 from '../images/WorkingDraft/img_8.png'
 
 
 export default function WorkingDraft () {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <>
         <CapRepair

@@ -4,9 +4,30 @@ import vk from '../images/footer/vk.svg'
 import fb from '../images/footer/fb.svg'
 import pint from '../images/footer/pint.svg'
 import { YMaps, Map } from 'react-yandex-maps';
-
+import { useState } from 'react';
 
 export default function Footer () {
+    
+    const [visible, setVisible] = useState(false);
+
+    const toggleVisible = () => {
+        const scrolled = document.documentElement.scrollTop;
+        if (scrolled > 300){
+            setVisible(true)
+        } 
+        else if (scrolled <= 300){
+            setVisible(false)
+        }
+    };
+
+    window.addEventListener('scroll', toggleVisible);
+    
+    const scrollToTop = () =>{
+        window.scrollTo({
+            top: 0, 
+            behavior: 'smooth'
+        });
+    };
 
     return (
     <footer className="footer">
@@ -46,6 +67,7 @@ export default function Footer () {
             <p className="footer__text">Все права защищены.</p>
             <p className="footer__text">&#169;&nbsp;2021 Политика конфидициальности</p>
         </div>
+        <button className="footer__button" onClick={scrollToTop} style={{display: visible ? 'inline' : 'none'}} />
     </footer>
 )
 }

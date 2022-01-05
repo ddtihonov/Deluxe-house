@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import people_1 from '../images/team/people_1.png';
 import people_2 from '../images/team/people_2.png';
 import people_3 from '../images/team/people_3.png';

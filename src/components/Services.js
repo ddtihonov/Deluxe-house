@@ -9,6 +9,10 @@ import repiair_we from '../images/repiair/repiair_we.png'
 
 export default function Services () {
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     const [isPopupOpen, setIsPopupOpen] = useState(false);
 
     const handlePopup = () => {

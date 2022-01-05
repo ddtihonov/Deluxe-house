@@ -5,8 +5,13 @@ import card from '../images/team/card.png';
 import People from './People';
 import Hint from './Hint';
 import { hintData } from '../utils/constants';
+import React, { useEffect } from 'react';
 
 export default function Team () {
+    
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <>

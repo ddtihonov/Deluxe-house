@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
 
 
 import design_1 from '../images/commercial/design_1.png'
@@ -15,7 +16,11 @@ import design_11 from '../images/portfolio/design_11.png'
 import design_5_1 from '../images/portfolio/design_5.png'
 
 export default function Commercial () {
-
+    
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+    
     return (
         <>
         <section className="commercial">

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import CardArticle from "./CardArticle"
+import React, { useEffect } from 'react';
 
 import articles_1 from '../images/articles/articles_1.png'
 import articles_2 from '../images/articles/articles_2.png'
@@ -9,7 +10,11 @@ import articles_5 from '../images/articles/articles_5.png'
 import articles_6 from '../images/articles/articles_6.png'
 
 export default function Articles () {
-
+    
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+    
     return (
         <>
         <section className="articles">

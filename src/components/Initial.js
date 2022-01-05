@@ -13,16 +13,16 @@ export default function Initial () {
                 <p className="initial__subtitle">СТУДИЯ&nbsp;ДИЗАЙНА&nbsp;ИНТЕРЬЕРА</p>
                 <div className="initial__line"></div>
                 <ul className="initial__list">
-                    <li className="initial__item"><a className="initial__link" target="_blank" href="https://www.instagram.com/dh_studio/">
+                    <li className="initial__item"><a className="initial__link" target="_blank" href="https://www.instagram.com/dh_studio/"rel="noopener noreferrer" >
                         <img className="initial__social-icon" src={inst} alt="инстаграмм"/>
                     </a></li>
-                    <li className="initial__item"><a className="initial__link" target="_blank" href="https://vk.com/dh_studio_kz">
+                    <li className="initial__item"><a className="initial__link" target="_blank" href="https://vk.com/dh_studio_kz" rel="noopener noreferrer">
                         <img className="initial__social-icon" src={vk} alt="в контакте"/>
                     </a></li>
-                    <li className="initial__item"><a className="initial__link" target="_blank" href="https://www.facebook.com/DHstudioKZ">
+                    <li className="initial__item"><a className="initial__link" target="_blank" href="https://www.facebook.com/DHstudioKZ" rel="noopener noreferrer">
                         <img className="initial__social-icon" src={fb} alt="фейсбук"/>
                     </a></li>
-                    <li className="initial__item"><a className="initial__link" target="_blank" href="https://www.pinterest.ru/dhstudiokz/_created/">
+                    <li className="initial__item"><a className="initial__link" target="_blank" href="https://www.pinterest.ru/dhstudiokz/_created/" rel="noopener noreferrer">
                         <img className="initial__social-icon" src={pint} alt="пинтерест"/>
                     </a></li>
                 </ul>

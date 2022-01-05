@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
 
 import design_1 from '../images/portfolio/design_1.png'
 import design_2 from '../images/portfolio/design_2.png'
@@ -14,6 +15,10 @@ import design_14 from '../images/portfolio/design_14.png'
 import design_12 from '../images/portfolio/design_12.png'
 
 export default function Housing () {
+    
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <>
@@ -38,7 +43,7 @@ export default function Housing () {
             <div className="line"></div>
             <ul className="table">
                 <li className="table__card">
-                    <Link className="table__link" to="/page-housing"
+                    <Link className="table__link" to="/central-park"
                         title="Проект квартиры в ЖК 'Central Park'"
                     >
                         <img className="table__image" src={design_1} alt="дизайн интерьера"/>
@@ -48,18 +53,18 @@ export default function Housing () {
                     <p className="table__text">Квартира 220 кв.м. в ЖК “Сentral Park”</p>
                 </li>
                 <li className="table__card">
-                    <a className="table__link" href="#">
+                    <Link className="table__link" to="/ray-residence">
                         <img className="table__image" src={design_2} alt="дизайн интерьера"/>
                         <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
+                    </Link>
                     <h3 className="table__title">Светлая и элегантная спальня</h3>
                     <p className="table__text">Квартира 210 кв.м. в ЖК “Ray Residence”</p>
                 </li>
                 <li className="table__card">
-                    <a className="table__link" href="#">
+                    <Link className="table__link" to="/ray-residence">
                         <img className="table__image" src={design_3} alt="дизайн интерьера"/>
                         <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
+                    </Link>
                     <h3 className="table__title">Атмосфера роскоши и уюта</h3>
                     <p className="table__text">Квартира 210 кв.м. в ЖК “Ray Residence”</p>
                 </li>
@@ -96,10 +101,10 @@ export default function Housing () {
                     <p className="table__text">Гостевой дом с сауной</p>
                 </li>
                 <li className="table__card">
-                    <a className="table__link" href="#">
+                    <Link className="table__link" to='/austrian-quarter'>
                         <img className="table__image" src={design_8} alt="дизайн интерьера"/>
                         <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
+                    </Link>
                     <h3 className="table__title">Просторная и стильная кухня</h3>
                     <p className="table__text">Квартира 215 кв.м. в ЖК “Австрийский Квартал”</p>
                 </li>
@@ -128,10 +133,10 @@ export default function Housing () {
                     <p className="table__text">Квартира 150 кв.м. в ЖК “Dream City”</p>
                 </li>
                 <li className="table__card">
-                    <a className="table__link" href="#">
+                    <Link className="table__link" to='/austrian-quarter'>
                         <img className="table__image" src={design_12} alt="дизайн интерьера"/>
                         <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
+                    </Link>
                     <h3 className="table__title">Изысканная и просторная гостиная</h3>
                     <p className="table__text">Квартира 215 кв.м. в ЖК “Австрийский Квартал”</p>
                 </li>

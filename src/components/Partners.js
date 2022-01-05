@@ -22,40 +22,40 @@ export default function Partners () {
         </div>
         <ul className="partners__list">
             <li className="partners__cell">
-                <a className="partners__link" target="_blank" href="https://shop.miele.kz/"><img className="partners__image-link" src={partners_1} alt="партнер"/></a>
+                <a className="partners__link" target="_blank" href="https://shop.miele.kz/" rel="noopener noreferrer"><img className="partners__image-link" src={partners_1} alt="партнер"/></a>
             </li>
             <li className="partners__cell">
-                <a className="partners__link" target="_blank" href="https://www.bravomebel.kz/"><img className="partners__image-link" src={partners_2} alt="партнер"/></a>
+                <a className="partners__link" target="_blank" href="https://www.bravomebel.kz/"rel="noopener noreferrer" ><img className="partners__image-link" src={partners_2} alt="партнер"/></a>
             </li>
             <li className="partners__cell">
-                <a className="partners__link" target="_blank" href="https://www.lorena-kuhni.kz/"><img className="partners__image-link" src={partners_3} alt="партнер"/></a>
+                <a className="partners__link" target="_blank" href="https://www.lorena-kuhni.kz/" rel="noopener noreferrer"><img className="partners__image-link" src={partners_3} alt="партнер"/></a>
             </li>
             <li className="partners__cell">
-                <a className="partners__link" target="_blank" href="https://www.smeg.com/kz/"><img className="partners__image-link" src={partners_4} alt="партнер"/></a>
+                <a className="partners__link" target="_blank" href="https://www.smeg.com/kz/" rel="noopener noreferrer"><img className="partners__image-link" src={partners_4} alt="партнер"/></a>
             </li>
             <li className="partners__cell">
-                <a className="partners__link" target="_blank" href="https://kazintercool.kz/"><img className="partners__image-link" src={partners_5} alt="партнер"/></a>
+                <a className="partners__link" target="_blank" href="https://kazintercool.kz/" rel="noopener noreferrer"><img className="partners__image-link" src={partners_5} alt="партнер"/></a>
             </li>
             <li className="partners__cell">
-                <a className="partners__link" target="_blank" href="https://www.desiderio.kz/"><img className="partners__image-link" src={partners_6} alt="партнер"/></a>
+                <a className="partners__link" target="_blank" href="https://www.desiderio.kz/" rel="noopener noreferrer"><img className="partners__image-link" src={partners_6} alt="партнер"/></a>
             </li>
             <li className="partners__cell">
-                <a className="partners__link" target="_blank" href="https://mirparketa.kz/"><img className="partners__image-link" src={partners_7} alt="партнер"/></a>
+                <a className="partners__link" target="_blank" href="https://mirparketa.kz/" rel="noopener noreferrer"><img className="partners__image-link" src={partners_7} alt="партнер"/></a>
             </li>
             <li className="partners__cell">
-                <a className="partners__link" target="_blank" href="https://www.gallery.kz/"><img className="partners__image-link" src={partners_8} alt="партнер"/></a>
+                <a className="partners__link" target="_blank" href="https://www.gallery.kz/" rel="noopener noreferrer"><img className="partners__image-link" src={partners_8} alt="партнер"/></a>
             </li>
             <li className="partners__cell">
-                <a className="partners__link" target="_blank" href="https://ideadecor.kz/"><img className="partners__image-link" src={partners_9} alt="партнер"/></a>
+                <a className="partners__link" target="_blank" href="https://ideadecor.kz/" rel="noopener noreferrer"><img className="partners__image-link" src={partners_9} alt="партнер"/></a>
             </li>
             <li className="partners__cell">
-                <a className="partners__link" target="_blank" href="https://ideadecor.kz/sofia"><img className="partners__image-link" src={partners_10} alt="партнер"/></a>
+                <a className="partners__link" target="_blank" href="https://ideadecor.kz/sofia" rel="noopener noreferrer"><img className="partners__image-link" src={partners_10} alt="партнер"/></a>
             </li>
             <li className="partners__cell">
-                <a className="partners__link" target="_blank" href="https://euroelectric.kz/"><img className="partners__image-link" src={partners_11} alt="партнер"/></a>
+                <a className="partners__link" target="_blank" href="https://euroelectric.kz/" rel="noopener noreferrer"><img className="partners__image-link" src={partners_11} alt="партнер"/></a>
             </li>
             <li className="partners__cell">
-                <a className="partners__link" target="_blank" href="https://adelfi-furniture.kz/"><img className="partners__image-link" src={partners_12} alt="партнер"/></a>
+                <a className="partners__link" target="_blank" href="https://adelfi-furniture.kz/" rel="noopener noreferrer"><img className="partners__image-link" src={partners_12} alt="партнер"/></a>
             </li>
         </ul>
     </section>
