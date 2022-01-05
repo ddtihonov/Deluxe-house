@@ -7,6 +7,7 @@ import logo_header from '../images/header/logo_header.svg';
 export default function Header() {
 
     const [isDataOpen, setIsDataOpen] = useState(false);
+    const [isActive, setIsActive] = useState(false);
 
     function openData () {
         setIsDataOpen(true)
@@ -27,12 +28,13 @@ export default function Header() {
                     <li className="menu__item"><Link className="menu__link" to="/services">Услуги</Link></li>
                     <li className="menu__item"><Link className="menu__link" to="/repiair">Ремонт</Link></li>
                     <li className="menu__item menu__item_parent">
-                        <p href="#" className="menu__link">Портфолио
-                            <ul className="menu__submenu">
-                                <li className="menu__submenu_item"><Link className="menu__link" to="/housing">Жилые помещения</Link></li>
-                                <li className="menu__submenu_item"><Link className="menu__link" to="/commercial">Коммерческие помещения</Link></li>
-                            </ul>
-                        </p>
+                        <p  className="menu__link" onClick={() => setIsActive(!isActive)}>Портфолио</p>
+                            {isActive && 
+                                <ul className="menu__submenu">
+                                    <li className="menu__submenu_item"><Link className="menu__link" to="/housing">Жилые помещения</Link></li>
+                                    <li className="menu__submenu_item"><Link className="menu__link" to="/commercial">Коммерческие помещения</Link></li>
+                                </ul>
+                            } 
                     </li>
                     <li className="menu__item"><Link className="menu__link" to="/team">О нас</Link></li>
                     <li className="menu__item"><Link className="menu__link" to="/articles">Статьи</Link></li>
@@ -55,7 +57,7 @@ export default function Header() {
                     <li className="menu-mobile__item"><Link className="menu-mobile__link" to="/services">Услуги</Link></li>
                     <li className="menu-mobile__item"><Link className="menu-mobile__link" to="/repiair">Ремонт</Link></li>
                     <li className="menu-mobile__item">
-                        <p href="#" className="menu-mobile__link_smoll">Портфолио</p>
+                        <p className="menu-mobile__link_smoll">Портфолио</p>
                         <ul className="menu-mobile__list_smoll">
                                 <li className="menu-mobile__item"><Link className="menu-mobile__link" to="/housing">Жилые помещения</Link></li>
                                 <li className="menu-mobile__item"><Link className="menu-mobile__link menu-mobile__link_smoll" to="/commercial">Коммерческие помещения</Link></li>

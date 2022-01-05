@@ -10,12 +10,11 @@ import Services from './Services.js';
 import Team from './Team.js';
 import Contacts from './Contacts.js';
 import Articles from './Articles.js';
-import PageTemplate from './PageTemplate.js';
 import Escort from './Escort.js';
 import DraftProject from './DraftProject.js';
 import TechnicalTask from './TechnicalTask.js';
 import WorkingDraft from './WorkingDraft.js';
-
+import PageHousing from './PageHousing.js';
 
 export default function App() {
 
@@ -58,6 +57,11 @@ return (
                         />
                         <Route  exact path='/working-draft'  element={
                                 <WorkingDraft/>}
+                        />
+                        <Route  exact path='/page-housing'  element={
+                                <PageHousing
+                                        title="Проект квартиры в ЖК 'Central Park'"
+                                />}
                         />
                 </Routes>  
                 <Footer />     

@@ -3,7 +3,7 @@ import inst from '../images/footer/inst.svg'
 import vk from '../images/footer/vk.svg'
 import fb from '../images/footer/fb.svg'
 import pint from '../images/footer/pint.svg'
-import map from '../images/footer/map.jpg'
+import { YMaps, Map } from 'react-yandex-maps';
 
 
 export default function Footer () {
@@ -37,9 +37,10 @@ export default function Footer () {
                 <h4 className="footer__subtitle">Написать на почту</h4>
                 <p className="footer__text">dh.studio.kz@gmail.com</p>
             </div>
-            <div className="footer__map">
-                <img className="footer__map_image" src={map} alt="карта"/>
-            </div>
+            <YMaps className="footer__map">
+                <Map  width='100%' height='300px' defaultState={{ center: [51.125787, 71.434472], zoom: 16 }}>
+                </Map>
+            </YMaps>
         </div>
         <div className="footer__copyright">
             <p className="footer__text">Все права защищены.</p>

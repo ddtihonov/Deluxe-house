@@ -38,10 +38,12 @@ export default function Housing () {
             <div className="line"></div>
             <ul className="table">
                 <li className="table__card">
-                    <a className="table__link" href="#">
+                    <Link className="table__link" to="/page-housing"
+                        title="Проект квартиры в ЖК 'Central Park'"
+                    >
                         <img className="table__image" src={design_1} alt="дизайн интерьера"/>
                         <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
+                    </Link>
                     <h3 className="table__title">Стильная кухня</h3>
                     <p className="table__text">Квартира 220 кв.м. в ЖК “Сentral Park”</p>
                 </li>

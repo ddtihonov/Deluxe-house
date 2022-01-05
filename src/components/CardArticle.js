@@ -10,9 +10,7 @@ export default function CardArticle (props) {
             <p className="articles__text">{props.text}</p>
             <div className="articles__box">
                 <div className="articles__line"></div>
-                <Link className="articles__link" to="/article"
-                subtitle={props.subtitle}
-                >подробнее</Link>
+                <Link className="articles__link" to="/article">подробнее</Link>
             </div>
         </li>
 )
