@@ -1,0 +1,16 @@
+.hint__title{
+    font-family: 'Forum';
+    font-weight: 400;
+    color: #E1DECE;
+    font-size: 25px;
+    line-height: 35px;
+    margin: 40px 20px 20px 20px;
+    text-align: left;
+}
+
+@media (max-width: 768px){
+    .hint__title {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+}

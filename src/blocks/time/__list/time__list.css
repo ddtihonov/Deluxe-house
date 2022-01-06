@@ -1,0 +1,7 @@
+.time__list{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 20px auto 0;
+}

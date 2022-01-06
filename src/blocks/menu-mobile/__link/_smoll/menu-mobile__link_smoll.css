@@ -1,7 +1,51 @@
 .menu-mobile__link_smoll{
+    position: relative;
     margin: 0;
-    border-bottom: 1px solid #D0D0D0;
     padding-top: 11px;
     padding-bottom: 11px;
     width: 100%;
+    cursor: pointer;
+    font-weight: 400;
+    font-family:  "Roboto";
+    font-size: 18px;
+    line-height: 1.15;
+}
+
+.menu-mobile__link_smoll::after{
+    position: absolute;
+    content: "";
+    right: 5px;
+    top: 18px;
+    width: 11px;
+    height: 11px;
+    border-right: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    transform: rotate(-45deg);
+    transition: transform 220ms ease-in-out;
+}
+
+.menu-mobile__link_smoll-active{
+    position: relative;
+    margin: 0;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: 400;
+    font-family:  "Roboto";
+    font-size: 18px;
+    line-height: 1.15;
+}
+
+.menu-mobile__link_smoll-active::after{
+    position: absolute;
+    content: "";
+    right: 5px;
+    top: 18px;
+    width: 11px;
+    height: 11px;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    transform: rotate(45deg);
+    transition: transform 220ms ease-in-out;
 }

@@ -17,6 +17,7 @@ import WorkingDraft from './WorkingDraft.js';
 import CentralPark from './CentralPark.js';
 import RayResidence from './RayResidence.js';
 import AustrianQuarter from './AustrianQuarter.js';
+import Arman from './Arman.js';
 
 export default function App() {
 
@@ -68,6 +69,9 @@ return (
                         />
                         <Route  exact path='/austrian-quarter'  element={
                                 <AustrianQuarter/>}
+                        />
+                        <Route  exact path='/arman'  element={
+                                <Arman/>}
                         />
                 </Routes>  
                 <Footer />     

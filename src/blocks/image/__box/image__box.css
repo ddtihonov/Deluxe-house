@@ -1,0 +1,14 @@
+.image__box{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 0;
+    margin-top: 30px auto 0;
+}
+
+@media (max-width: 768px){
+    .image__box {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+}

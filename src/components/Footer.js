@@ -64,7 +64,7 @@ export default function Footer () {
                     options={{
                         iconLayout: 'default#image',
                         iconImageSize: [40, 40],
-                        iconImageHref: 'http://localhost:3000/Deluxe-house/static/media/LOGO.7c9f528ef08f1df400e3eebdbab30b94.svg',
+                        iconImageHref: 'https://ddtihonov.github.io/Deluxe-house/static/media/LOGO.7c9f528ef08f1df400e3eebdbab30b94.svg',
                     }}
                     />
                 </Map>

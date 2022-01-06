@@ -1,0 +1,32 @@
+.time__button{
+    width: 50%;
+    padding: 20px 10px;
+    color: #E1DECE;
+    border: 1px solid #E1DECE;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.time__button:focus{
+    background: #E1DECE;
+    color: #191919;
+}
+
+@media (max-width: 768px){
+    .time__button{
+        font-size: 14px;
+        line-height: 1.25;
+    }
+}
+
+@media (max-width: 425px){
+    .time__button{
+        font-size: 10px;
+        line-height: 1.25;
+    }
+}

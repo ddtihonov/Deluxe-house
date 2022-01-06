@@ -120,6 +120,8 @@
 @import url(./blocks/menu-mobile/__body/menu-mobile__body.css);
 @import url(./blocks/menu-mobile/__list/_smoll/menu-mobile__list_smoll.css);
 @import url(./blocks/menu-mobile/__link/_smoll/menu-mobile__link_smoll.css);
+@import url(./blocks/menu-mobile/__line/menu-mobile__line.css);
+@import url(./blocks/menu-mobile/__box/_smoll/menu-mobile__box_smoll.css);
 
 /*Подключаем table*/
 @import url(./blocks/table/table.css);
@@ -262,171 +264,35 @@
 @import url(./blocks/years/__title/_big/years__title_big.css);
 @import url(./blocks/years/__container/years__container.css);
 
-.bor{
-    border: 1px solid red;
-}
+/*подключаем hint*/
+@import url(./blocks/hint/hint.css);
+@import url(./blocks/hint/__title/hint__title.css);
+@import url(./blocks/hint/__box/hint__box.css);
+@import url(./blocks/hint/__content/hint__content.css);
 
-.box{
-    border: 1px solid rgb(196, 30, 146);
-}
+/*подключаем team*/
+@import url(./blocks/team/team.css);
+@import url(./blocks/team/__box/team__box.css);
+@import url(./blocks/team/__video/tram__video.css);
+@import url(./blocks/team/__img/team__img.css);
 
-/**************************************/
-/**************************************/
-.repiair__img{
-    width: 100%;
-}
+/*подключаем repiair*/
+@import url(./blocks/repiair/repiair.css);
+@import url(./blocks/repiair/__img/repiair__img.css);
 
-.time{
-    max-width: 1170px;
-    margin: 0 auto;
-    padding: 20px 10px 80px;
-}
+/*подключаем people*/
+@import url(./blocks/people/people.css);
 
-.time__box{
-    display: flex;
-}
+/*подключаем time*/
+@import url(./blocks/time/time.css);
+@import url(./blocks/time/__box/time__box.css);
+@import url(./blocks/time/__button/time__button.css);
+@import url(./blocks/time/__list/time__list.css);
+@import url(./blocks/time/__item/time__item.css);
+@import url(./blocks/time/__item/_light/time__item_light.css);
 
-.time__button{
-    width: 50%;
-    padding: 20px 10px;
-    color: #E1DECE;
-    border: 1px solid #E1DECE;
-    border-radius: 5px;
-    background-color: transparent;
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 700;
-    cursor: pointer;
-    transition: .3s;
-}
-
-.time__button:focus{
-    background: #E1DECE;
-    color: #191919;
-}
-
-@media (max-width: 768px){
-    .time__button{
-        font-size: 14px;
-        line-height: 1.25;
-    }
-}
-
-@media (max-width: 425px){
-    .time__button{
-        font-size: 10px;
-        line-height: 1.25;
-    }
-}
-
-.time__list{
-    display: flex;
-    list-style: none;
-    width: 100%;
-    padding: 0;
-    margin: 20px auto 0;
-}
-
-.time__item{
-    width: 25%;
-    background-color: #E8E6E0;
-    height: 50px;
-}
-
-.time__item_light{
-    background-color: #FAF8F5;
-}
-
-.team__box{
-    max-width: 1170px;
-    margin: 0 auto;
-    padding: 0 10px;
-}
-.team__video{
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-.team__img{
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-.people{
-    max-width: 1400px;
-    margin: 0 auto;
-}
-
-.hint{
-    max-width: 1170px;
-    margin: 30px auto 0;
-    display: flex;
-    flex-direction: column;
-    padding: 0 10px;
-}
-
-.hint__title{
-    font-family: 'Forum';
-    font-weight: 400;
-    color: #E1DECE;
-    font-size: 25px;
-    line-height: 35px;
-    margin: 40px 20px 20px 20px;
-    text-align: left;
-}
-
-@media (max-width: 768px){
-    .hint__title {
-        font-size: 18px;
-        line-height: 1.5;
-    }
-}
-
-.hint__content{
-    font-family: 'Forum';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFF;
-    padding: 10px;
-    box-shadow: 0 3px 6px 1px rgb(0 0 0 / 16%);
-}
-
-.hint__box{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 15px;
-}
-
-.image__box{
-    list-style: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    padding: 0;
-    margin-top: 30px auto 0;
-}
-
-@media (max-width: 768px){
-    .image__box {
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    }
-}
-
-.image__cell{
-    max-width: 570px;
-}
-
-.image__item{
-    max-width: 100%;
-    height: 100%;
-    border-radius: 5px;
-}
-
-.image__item_big{
-    margin-top: 30px;
-    max-width: 100%;
-    height: 100%;
-    border-radius: 5px;
-}
+/*подключаем image*/
+@import url(./blocks/image/__box/image__box.css);
+@import url(./blocks/image/__cell/image__cell.css);
+@import url(./blocks/image/__item/image__item.css);
+@import url(./blocks/image/__item/_big/image__item_big.css);

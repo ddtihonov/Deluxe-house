@@ -28,13 +28,11 @@ export default function Header() {
                     <li className="menu__item"><Link className="menu__link" to="/services">Услуги</Link></li>
                     <li className="menu__item"><Link className="menu__link" to="/repiair">Ремонт</Link></li>
                     <li className="menu__item menu__item_parent">
-                        <p  className="menu__link" onClick={() => setIsActive(!isActive)}>Портфолио</p>
-                            {isActive && 
-                                <ul className="menu__submenu">
-                                    <li className="menu__submenu_item"><Link className="menu__link" to="/housing">Жилые помещения</Link></li>
-                                    <li className="menu__submenu_item"><Link className="menu__link" to="/commercial">Коммерческие помещения</Link></li>
-                                </ul>
-                            } 
+                        <p  className="menu__link">Портфолио</p>
+                            <ul className="menu__submenu">
+                                <li className="menu__submenu_item"><Link className="menu__link" to="/housing">Жилые помещения</Link></li>
+                                <li className="menu__submenu_item"><Link className="menu__link" to="/commercial">Коммерческие помещения</Link></li>
+                            </ul>
                     </li>
                     <li className="menu__item"><Link className="menu__link" to="/team">О нас</Link></li>
                     <li className="menu__item"><Link className="menu__link" to="/articles">Статьи</Link></li>
@@ -57,11 +55,15 @@ export default function Header() {
                     <li className="menu-mobile__item"><Link className="menu-mobile__link" to="/services">Услуги</Link></li>
                     <li className="menu-mobile__item"><Link className="menu-mobile__link" to="/repiair">Ремонт</Link></li>
                     <li className="menu-mobile__item">
-                        <p className="menu-mobile__link_smoll">Портфолио</p>
+                        <div className="menu-mobile__box_smoll" onClick={() => setIsActive(!isActive)}>
+                            <p className={`${isActive ? 'menu-mobile__link_smoll-active' : 'menu-mobile__link_smoll'}`}>Портфолио</p>
+                        </div>
+                        {isActive && 
                         <ul className="menu-mobile__list_smoll">
                                 <li className="menu-mobile__item"><Link className="menu-mobile__link" to="/housing">Жилые помещения</Link></li>
                                 <li className="menu-mobile__item"><Link className="menu-mobile__link menu-mobile__link_smoll" to="/commercial">Коммерческие помещения</Link></li>
                         </ul>
+                        }
                     </li>
                     <li className="menu-mobile__item"><Link className="menu-mobile__link" to="/team">О нас</Link></li>
                     <li className="menu-mobile__item"><Link className="menu-mobile__link" to="/articles">Статьи</Link></li>
