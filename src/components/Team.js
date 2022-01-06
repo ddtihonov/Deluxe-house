@@ -52,8 +52,8 @@ export default function Team () {
         <section className="hint">
             <h2 className="title__smoll">Полезные советы от нас</h2>
             <div className="line"></div>
-                {hintData.map(({ title, content }) => (
-                <Hint title={title} content={content} />
+                {hintData.map(({id, title, content }) => (
+                <Hint key={id} title={title} content={content} />
                 ))}
             <div className="button__box">
                     <Link className="link-black" to="/articles">СТАТЬИ О ДИЗАЙНЕ</Link>

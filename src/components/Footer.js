@@ -3,7 +3,7 @@ import inst from '../images/footer/inst.svg'
 import vk from '../images/footer/vk.svg'
 import fb from '../images/footer/fb.svg'
 import pint from '../images/footer/pint.svg'
-import { YMaps, Map } from 'react-yandex-maps';
+import { YMaps, Map, Placemark } from 'react-yandex-maps';
 import { useState } from 'react';
 
 export default function Footer () {
@@ -59,7 +59,14 @@ export default function Footer () {
                 <p className="footer__text">dh.studio.kz@gmail.com</p>
             </div>
             <YMaps className="footer__map">
-                <Map  width='100%' height='300px' defaultState={{ center: [51.125787, 71.434472], zoom: 16 }}>
+                <Map  width='100%' height='300px' defaultState={{ center: [51.125787, 71.434472], zoom: 14}}>
+                    <Placemark geometry={[51.126709, 71.434840]}
+                    options={{
+                        iconLayout: 'default#image',
+                        iconImageSize: [40, 40],
+                        iconImageHref: 'http://localhost:3000/Deluxe-house/static/media/LOGO.7c9f528ef08f1df400e3eebdbab30b94.svg',
+                    }}
+                    />
                 </Map>
             </YMaps>
         </div>
