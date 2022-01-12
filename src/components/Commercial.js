@@ -14,6 +14,7 @@ import design_9 from '../images/commercial/design_9.png'
 import design_10 from '../images/portfolio/design_10.png'
 import design_11 from '../images/portfolio/design_11.png'
 import design_5_1 from '../images/portfolio/design_5.png'
+import PageCommercial from './PageCommercial';
 
 export default function Commercial () {
     
@@ -23,15 +24,9 @@ export default function Commercial () {
     
     return (
         <>
-        <section className="commercial">
-        <div className="main__info">
-                <h2 className="main__title">Дизайн коммерческих помещений</h2>
-                <div className="main__box">
-                    <Link className="main__link" to="/">Главная</Link>
-                    <p className="main__text">/Коммерческие помещения</p>
-                </div>
-            </div>
-        </section>
+        <PageCommercial
+            title="Дизайн коммерческих помещений"
+        />
         <div className="paragraph">
                 <h2 className="paragraph__title">Что предлагаем мы?</h2>
                 <p className="paragraph__text">Эксперты нашей студии дизайна смогут создать качественный и детальный дизайн проект для Вашего помещения с учетом всех Ваших пожеланий, при этом применяя любые стилистические направления, учитывая возмонжость их реализации, исходя из того, что предлагается на рынке Республики Казахстан и имея возможность заказа материалов из-за ее границ. Одновременно с этим, нами учитываются все технические особенности помещений и соблюдаются модные тенденции, чтобы они соответствовали вкусу современных покупателей и потенциальных постоянных посетителей. Весь дизайн создается и планируется под определенный бюджет, который готов выделить Заказчик. Благодаря всему этому, Вы точно сможете получить качественно разработанный и детально проработанный интерьер, который сделает Ваше заведение уникальным и высококонкурентным!</p>
@@ -73,10 +68,10 @@ export default function Commercial () {
                     <p className="table__text">ТРЦ “Евразия, 2019 г.</p>
                 </li>
                 <li className="table__card">
-                    <a className="table__link" href="#">
+                    <Link className="table__link" to="/heaven-astana">
                         <img className="table__image" src={design_5} alt="дизайн интерьера"/>
                         <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
+                    </Link>
                     <h3 className="table__title">SPA с банным комплексом</h3>
                     <p className="table__text">ул. Аксу-Аюлы, 2020 год.</p>
                 </li>
@@ -89,10 +84,10 @@ export default function Commercial () {
                     <p className="table__text">ТРЦ “Абу-Даби Плаза”, 2020 г.</p>
                 </li>
                 <li className="table__card">
-                    <a className="table__link" href="#">
+                    <Link className="table__link" to="/bathhouse">
                         <img className="table__image" src={design_7} alt="дизайн интерьера"/>
                         <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
+                    </Link>
                     <h3 className="table__title">Бассейн в гостевом доме</h3>
                     <p className="table__text">Гостевой дом с сауной</p>
                 </li>
@@ -105,18 +100,18 @@ export default function Commercial () {
                     <p className="table__text">ул. А.Байтурсынова, 2021 г.</p>
                 </li>
                 <li className="table__card">
-                    <a className="table__link" href="#">
+                    <Link className="table__link" to="/timas">
                         <img className="table__image" src={design_9} alt="дизайн интерьера"/>
                         <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
+                    </Link>
                     <h3 className="table__title">Офис руководителя компании “Таймас”</h3>
                     <p className="table__text">Дизайн офиса в БЦ «Азия»</p>
                 </li>
                 <li className="table__card">
-                    <a className="table__link" href="#">
+                    <Link className="table__link" to="/mood-fashion">
                         <img className="table__image" src={design_10} alt="дизайн интерьера"/>
                         <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
+                    </Link>
                     <h3 className="table__title">Стильный бутик</h3>
                     <p className="table__text">Бутик женской одежды в ТРЦ “Азия Парк”</p>
                 </li>
@@ -129,10 +124,10 @@ export default function Commercial () {
                     <p className="table__text">Ресторан в ЖК “Премьера”</p>
                 </li>
                 <li className="table__card">
-                    <a className="table__link" href="#">
+                    <Link className="table__link" to="/heaven-astana">
                         <img className="table__image" src={design_5_1} alt="дизайн интерьера"/>
                         <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
+                    </Link>
                     <h3 className="table__title">Комфортная комната отдыха</h3>
                     <p className="table__text">Гостевой дом 3000 кв.м. “Heaven Astana”</p>
                 </li>

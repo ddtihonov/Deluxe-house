@@ -117,18 +117,18 @@ export default function Housing () {
                     <p className="table__text">Квартира 320 кв.м. в ЖК “Арман”</p>
                 </li>
                 <li className="table__card">
-                    <a className="table__link" href="#">
+                    <Link className="table__link" to="/family-village">
                         <img className="table__image" src={design_13} alt="дизайн интерьера"/>
                         <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
+                    </Link>
                     <h3 className="table__title">Стиль — неоклассика. 2020 г.</h3>
                     <p className="table__text">Коттедж 450 кв.м. в мкр. Family Village</p>
                 </li>
                 <li className="table__card">
-                    <a className="table__link" href="#">
+                    <Link className="table__link" to="/central-park">
                         <img className="table__image" src={design_14} alt="дизайн интерьера"/>
                         <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
+                    </Link>
                     <h3 className="table__title">Стиль — лофт. 2020 г.</h3>
                     <p className="table__text">Квартира 150 кв.м. в ЖК “Dream City”</p>
                 </li>

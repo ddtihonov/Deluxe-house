@@ -22,6 +22,9 @@ import HeavenAstana from './HeavenAstana.js';
 import DiplomaticTown from './DiplomaticTown.js';
 import PremiereRestaurant from './PremiereRestaurant.js';
 import Bathhouse from './Bathhouse.js';
+import FamilyVillage from './FamilyVillage.js';
+import MoodFashion from './MoodFashion.js';
+import Timas from './Timas.js';
 
 export default function App() {
 
@@ -88,6 +91,15 @@ return (
                         />
                         <Route  exact path='/bathhouse'  element={
                                 <Bathhouse/>}
+                        />
+                        <Route  exact path='/family-village'  element={
+                                <FamilyVillage/>}
+                        />
+                        <Route  exact path='/mood-fashion'  element={
+                                <MoodFashion/>}
+                        />
+                        <Route  exact path='/timas'  element={
+                                <Timas/>}
                         />
                 </Routes>  
                 <Footer />     

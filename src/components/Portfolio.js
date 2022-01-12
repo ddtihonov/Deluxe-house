@@ -93,10 +93,10 @@ export default function Portfolio (props) {
                     <p className="table__text">Квартира 320 кв.м. в ЖК “Арман”</p>
                 </li>
                 <li className="table__card">
-                    <a className="table__link" href="#">
+                    <Link className="table__link" to="/mood-fashion">
                         <img className="table__image" src={design_10} alt="дизайн интерьера"/>
                         <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
+                    </Link>
                     <h3 className="table__title">Стильный бутик</h3>
                     <p className="table__text">Бутик женской одежды в ТРЦ “Азия Парк”</p>
                 </li>

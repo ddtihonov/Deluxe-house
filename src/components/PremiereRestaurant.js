@@ -1,4 +1,4 @@
-import PageHousing from "./PageHousing";
+import PageCommercial from './PageCommercial';
 import React, { useEffect } from 'react';
 import img_1 from '../images/PremiereRestaurant/img_1.png'
 import img_2 from '../images/PremiereRestaurant/img_2.png'
@@ -19,7 +19,7 @@ export default function PremiereRestaurant () {
     
     return (
         <>
-        <PageHousing
+        <PageCommercial
             title="Дизайн интерьера ресторана 51:4"
         />
         <div className="paragraph">
