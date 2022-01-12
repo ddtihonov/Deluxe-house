@@ -121,10 +121,10 @@ export default function Commercial () {
                     <p className="table__text">Бутик женской одежды в ТРЦ “Азия Парк”</p>
                 </li>
                 <li className="table__card">
-                    <a className="table__link" href="#">
+                    <Link className="table__link" to="/premiere-restaurant">
                         <img className="table__image" src={design_11} alt="дизайн интерьера"/>
                         <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
+                    </Link>
                     <h3 className="table__title">Дизайн ресторана 51:4</h3>
                     <p className="table__text">Ресторан в ЖК “Премьера”</p>
                 </li>

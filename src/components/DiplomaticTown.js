@@ -1,39 +1,37 @@
 import PageHousing from "./PageHousing";
 import React, { useEffect } from 'react';
-import img_1 from '../images/Arman/img_1.png'
-import img_2 from '../images/Arman/img_2.png'
-import img_3 from '../images/Arman/img_3.png'
-import img_4 from '../images/Arman/img_4.png'
-import img_5 from '../images/Arman/img_5.png'
-import img_6 from '../images/Arman/img_6.png'
-import img_7 from '../images/Arman/img_7.png'
-import img_8 from '../images/Arman/img_8.png'
-import img_9 from '../images/Arman/img_9.png'
-import img_10 from '../images/Arman/img_10.png'
-import img_11 from '../images/Arman/img_11.png'
-import img_12 from '../images/Arman/img_12.png'
-import img_13 from '../images/Arman/img_13.png'
-import img_14 from '../images/Arman/img_14.png'
-import img_15 from '../images/Arman/img_15.png'
-import img_16 from '../images/Arman/img_16.png'
-import img_17 from '../images/Arman/img_17.png'
-import img_18 from '../images/Arman/img_18.png'
-import img_19 from '../images/Arman/img_19.png'
-import img_20 from '../images/Arman/img_20.png'
-import img_21 from '../images/Arman/img_21.png'
-import img_22 from '../images/Arman/img_22.png'
-import img_23 from '../images/Arman/img_23.png'
-import img_24 from '../images/Arman/img_24.png'
-import img_25 from '../images/Arman/img_25.png'
-import img_26 from '../images/Arman/img_26.png'
-import img_27 from '../images/Arman/img_27.png'
-import img_28 from '../images/Arman/img_28.png'
-import img_29 from '../images/Arman/img_29.png'
-import img_30 from '../images/Arman/img_30.png'
-import img_31 from '../images/Arman/img_31.png'
-import img_32 from '../images/Arman/img_32.png'
+import img_1 from '../images/DiplomaticTown/img_1.png'
+import img_2 from '../images/DiplomaticTown/img_2.png'
+import img_3 from '../images/DiplomaticTown/img_3.png'
+import img_4 from '../images/DiplomaticTown/img_4.png'
+import img_5 from '../images/DiplomaticTown/img_5.png'
+import img_6 from '../images/DiplomaticTown/img_6.png'
+import img_7 from '../images/DiplomaticTown/img_7.png'
+import img_8 from '../images/DiplomaticTown/img_8.png'
+import img_9 from '../images/DiplomaticTown/img_9.png'
+import img_10 from '../images/DiplomaticTown/img_10.png'
+import img_11 from '../images/DiplomaticTown/img_11.png'
+import img_12 from '../images/DiplomaticTown/img_12.png'
+import img_13 from '../images/DiplomaticTown/img_13.png'
+import img_14 from '../images/DiplomaticTown/img_14.png'
+import img_15 from '../images/DiplomaticTown/img_15.png'
+import img_16 from '../images/DiplomaticTown/img_16.png'
+import img_17 from '../images/DiplomaticTown/img_17.png'
+import img_18 from '../images/DiplomaticTown/img_18.png'
+import img_19 from '../images/DiplomaticTown/img_19.png'
+import img_20 from '../images/DiplomaticTown/img_20.png'
+import img_21 from '../images/DiplomaticTown/img_21.png'
+import img_22 from '../images/DiplomaticTown/img_22.png'
+import img_23 from '../images/DiplomaticTown/img_23.png'
+import img_24 from '../images/DiplomaticTown/img_24.png'
+import img_25 from '../images/DiplomaticTown/img_25.png'
+import img_26 from '../images/DiplomaticTown/img_26.png'
+import img_27 from '../images/DiplomaticTown/img_27.png'
+import img_28 from '../images/DiplomaticTown/img_28.png'
+import img_29 from '../images/DiplomaticTown/img_29.png'
+import img_30 from '../images/DiplomaticTown/img_30.png'
 
-export default function Arman () {
+export default function DiplomaticTown () {
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -42,11 +40,11 @@ export default function Arman () {
     return (
         <>
         <PageHousing
-            title="Проект квартиры в ЖК 'Арман'"
+            title="Проект дома в 'Дипломатическом городке'"
         />
         <div className="paragraph">
-                <h2 className="paragraph__title">Проект квартиры в стиле смешения неоклассики и модерна</h2>
-                <p className="paragraph__text">Дизайн интерьера был выполнен в эклектичном стиле. На разработку проекта ушел 1 месяц , авторский надзор за проектом составлял период в 3 месяца. Основой концепции создания проекта было желание учесть множество таких факторов, как проживание в одной квартире членов семьи в 3 поколениях с самыми разными и противоречивыми пожеланиями. Проект был сдан "под ключ" - с полным подбором всех необходимых материалов, мебели и декора. Площадь проектируемого объекта - 230 кв.м.</p>
+                <h2 className="paragraph__title">Проект дома был выполнен в эклектике</h2>
+                <p className="paragraph__text">Дизайн интерьера в классическом стиле в коттедже был выполнен с учетом самых высоких требований Заказчиков: была детально проработана планировка жилого дома, подобраны все материалы, поставщики материалов и услуг, весь декор и текстиль. Были тщательно продуманы все схемы и чертежи. На стадии 3д-визуализации Заказчику была представлена возможность увидеть каждую мелочь, каждую деталь и понять, как будет организована композиция света и цветовой гаммы, как это влияет на глубину восприятия помещений, как важен любой штрих в дизайне интерьера. Наша команда получает большое удовольствие от своей работы и готова выполнить любую задачу с высоким энтузиазмом.</p>
                 <h2 className="title__smoll">Галерея проекта</h2>
                 <div className="line"></div>
                 <ul className='image__box'>
@@ -140,15 +138,9 @@ export default function Arman () {
                     <li className="image__cell">
                         <img className="image__item" src={img_30} alt="эскиз"/>
                     </li>
-                    <li className="image__cell">
-                        <img className="image__item" src={img_31} alt="эскиз"/>
-                    </li>
-                    <li className="image__cell">
-                        <img className="image__item" src={img_32} alt="эскиз"/>
-                    </li>
                 </ul>
-                <h2 className="paragraph__title">Как быть уверенным, что мы сделаем именно то, что Вам нужно?</h2>
-                <p className="paragraph__text">Заказывая дизайн-проект, помните, что очень важным этапом проектирования является грамотно составленное Техническое Задание на проектирование. В задании на проектировании мы отражаем все нюансы, исходя из Ваших общих предпочтений: стиль дизайна, предпочтения по составу помещений, их предназначения, цветовые предпочтения Заказчика, наполненность деталей, закладываемый бюджет на строительно-монтажные работы, закуп мебели и декора, количество членов семьи, их вораст, хобби и род деятельности.</p>
+                <h2 className="paragraph__title">Можно ли выбрать свой стиль дизайна? Или все будет так, как на наших картинках?</h2>
+                <p className="paragraph__text">В нашем портфолио представлен целый ряд работ, выполненных в самых разных стилях. Примеры работ передают характер каждого из наших Заказчиков, но они не являются шаблонными. Каждый наш проект – это абсолютно индивидуальное решение, разрабатываемые, исходя из вкусовых предпочтений конкретного Заказчика и особенностей того или иного помещения. Ваш дизайн не будет повторять ни один из них, ведь мы всегда стремимся к разработке нового уникального проекта. Вы можете выбрать абсолютно любое направление дизайна интерьеров и мы с удовольствием приступим к его разработке!</p>
         </div>
         </>
     )}

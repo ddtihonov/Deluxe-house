@@ -18,6 +18,10 @@ import CentralPark from './CentralPark.js';
 import RayResidence from './RayResidence.js';
 import AustrianQuarter from './AustrianQuarter.js';
 import Arman from './Arman.js';
+import HeavenAstana from './HeavenAstana.js';
+import DiplomaticTown from './DiplomaticTown.js';
+import PremiereRestaurant from './PremiereRestaurant.js';
+import Bathhouse from './Bathhouse.js';
 
 export default function App() {
 
@@ -72,6 +76,18 @@ return (
                         />
                         <Route  exact path='/arman'  element={
                                 <Arman/>}
+                        />
+                        <Route  exact path='/heaven-astana'  element={
+                                <HeavenAstana/>}
+                        />
+                        <Route  exact path='/diplomatic-town'  element={
+                                <DiplomaticTown/>}
+                        />
+                        <Route  exact path='/premiere-restaurant'  element={
+                                <PremiereRestaurant/>}
+                        />
+                        <Route  exact path='/bathhouse'  element={
+                                <Bathhouse/>}
                         />
                 </Routes>  
                 <Footer />     

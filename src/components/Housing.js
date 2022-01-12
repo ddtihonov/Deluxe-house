@@ -69,18 +69,18 @@ export default function Housing () {
                     <p className="table__text">Квартира 210 кв.м. в ЖК “Ray Residence”</p>
                 </li>
                 <li className="table__card">
-                    <a className="table__link" href="#">
+                    <Link className="table__link" to="/diplomatic-town">
                         <img className="table__image" src={design_4} alt="дизайн интерьера"/>
                         <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
+                    </Link>
                     <h3 className="table__title">Дом для двух поколений</h3>
                     <p className="table__text">Дом в мкр. “Дипломатический городок”</p>
                 </li>
                 <li className="table__card">
-                    <a className="table__link" href="#">
+                    <Link className="table__link" to="/heaven-astana">
                         <img className="table__image" src={design_5} alt="дизайн интерьера"/>
                         <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
+                    </Link>
                     <h3 className="table__title">Комфортная комната отдыха</h3>
                     <p className="table__text">Гостевой дом 3000 кв.м. “Heaven Astana”</p>
                 </li>
@@ -93,10 +93,10 @@ export default function Housing () {
                     <p className="table__text">Квартира 320 кв.м. в ЖК “Арман”</p>
                 </li>
                 <li className="table__card">
-                    <a className="table__link" href="#">
+                    <Link className="table__link" to="/bathhouse">
                         <img className="table__image" src={design_7} alt="дизайн интерьера"/>
                         <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
+                    </Link>
                     <h3 className="table__title">Бассейн в гостевом доме</h3>
                     <p className="table__text">Гостевой дом с сауной</p>
                 </li>
