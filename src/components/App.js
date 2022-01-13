@@ -25,6 +25,10 @@ import Bathhouse from './Bathhouse.js';
 import FamilyVillage from './FamilyVillage.js';
 import MoodFashion from './MoodFashion.js';
 import Timas from './Timas.js';
+import Trattoria from './Trattoria.js';
+import GolfArman from './GolfArman.js';
+import Garderob from './Garderob.js';
+import Kmg from './Kmg.js';
 
 export default function App() {
 
@@ -100,6 +104,18 @@ return (
                         />
                         <Route  exact path='/timas'  element={
                                 <Timas/>}
+                        />
+                        <Route  exact path='/trattoria'  element={
+                                <Trattoria/>}
+                        />
+                        <Route  exact path='/golf-arman'  element={
+                                <GolfArman/>}
+                        />
+                        <Route  exact path='/garderob'  element={
+                                <Garderob/>}
+                        />
+                        <Route  exact path='/kmg'  element={
+                                <Kmg/>}
                         />
                 </Routes>  
                 <Footer />     

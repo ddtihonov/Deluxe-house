@@ -36,10 +36,10 @@ export default function Commercial () {
             <div className="line"></div>
             <ul className="table">
                 <li className="table__card">
-                    <a className="table__link" href="#">
+                    <Link className="table__link" to="/golf-arman">
                         <img className="table__image" src={design_1} alt="дизайн интерьера"/>
                         <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
+                    </Link>
                     <h3 className="table__title">Помещение для игры в гольф</h3>
                     <p className="table__text">Симулятор для игры в гольф в БЦ «Арман»</p>
                 </li>
@@ -52,18 +52,18 @@ export default function Commercial () {
                     <p className="table__text">VIP-здание Гольф-клуба, 2021 г.</p>
                 </li>
                 <li className="table__card">
-                    <a className="table__link" href="#">
+                    <Link className="table__link" to="/kmg">
                         <img className="table__image" src={design_3} alt="дизайн интерьера"/>
                         <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
+                    </Link>
                     <h3 className="table__title">Интерьер офиса компании KMG</h3>
                     <p className="table__text">Бизнес-Центр на Водно-зеленом бульваре</p>
                 </li>
                 <li className="table__card">
-                    <a className="table__link" href="#">
+                    <Link className="table__link" to="/garderob">
                         <img className="table__image" src={design_4} alt="дизайн интерьера"/>
                         <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
+                    </Link>
                     <h3 className="table__title">Бутик женской одежды</h3>
                     <p className="table__text">ТРЦ “Евразия, 2019 г.</p>
                 </li>
@@ -92,10 +92,10 @@ export default function Commercial () {
                     <p className="table__text">Гостевой дом с сауной</p>
                 </li>
                 <li className="table__card">
-                    <a className="table__link" href="#">
+                    <Link className="table__link" to="/trattoria">
                         <img className="table__image" src={design_8} alt="дизайн интерьера"/>
                         <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
+                    </Link>
                     <h3 className="table__title">Терраса ресторана Trattoria Highvill</h3>
                     <p className="table__text">ул. А.Байтурсынова, 2021 г.</p>
                 </li>
