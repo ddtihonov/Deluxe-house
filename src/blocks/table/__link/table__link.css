@@ -1,7 +1,7 @@
 .table__link {
     display: flex;
     position: relative;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .table__link:hover .table__hint{
