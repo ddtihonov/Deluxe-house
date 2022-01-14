@@ -29,6 +29,8 @@ import Trattoria from './Trattoria.js';
 import GolfArman from './GolfArman.js';
 import Garderob from './Garderob.js';
 import Kmg from './Kmg.js';
+import AstanaGolf from './AstanaGolf.js';
+import Kcell from './Kcell.js';
 
 export default function App() {
 
@@ -116,6 +118,12 @@ return (
                         />
                         <Route  exact path='/kmg'  element={
                                 <Kmg/>}
+                        />
+                        <Route  exact path='/astana-golf'  element={
+                                <AstanaGolf/>}
+                        />
+                        <Route  exact path='/kcell'  element={
+                                <Kcell/>}
                         />
                 </Routes>  
                 <Footer />     

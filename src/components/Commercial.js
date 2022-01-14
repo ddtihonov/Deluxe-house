@@ -44,10 +44,10 @@ export default function Commercial () {
                     <p className="table__text">Симулятор для игры в гольф в БЦ «Арман»</p>
                 </li>
                 <li className="table__card">
-                    <a className="table__link" href="#">
+                    <Link className="table__link" to="/astana-golf">
                         <img className="table__image" src={design_2} alt="дизайн интерьера"/>
                         <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
+                    </Link>
                     <h3 className="table__title">Помещение паба в Гольф-Клубе “Астана”</h3>
                     <p className="table__text">VIP-здание Гольф-клуба, 2021 г.</p>
                 </li>
@@ -76,10 +76,10 @@ export default function Commercial () {
                     <p className="table__text">ул. Аксу-Аюлы, 2020 год.</p>
                 </li>
                 <li className="table__card">
-                    <a className="table__link" href="#">
+                    <Link className="table__link" to="/kcell">
                         <img className="table__image" src={design_6} alt="дизайн интерьера"/>
                         <p className="table__hint" >СМОТРЕТЬ ПРОЕКТ</p>
-                    </a>
+                    </Link>
                     <h3 className="table__title">Торговый Зал K-Cell Центра</h3>
                     <p className="table__text">ТРЦ “Абу-Даби Плаза”, 2020 г.</p>
                 </li>
