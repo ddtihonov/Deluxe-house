@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Deluxe-house/static/css/main.8e7c30e0.css",
+    "main.css": "/Deluxe-house/static/css/main.033586ea.css",
     "main.js": "/Deluxe-house/static/js/main.4d67b82d.js",
     "static/js/787.971184cf.chunk.js": "/Deluxe-house/static/js/787.971184cf.chunk.js",
     "static/media/bg_useful.png": "/Deluxe-house/static/media/bg_useful.77e944cb42db1f5bd223.png",
@@ -128,12 +128,12 @@
     "static/media/phone.svg": "/Deluxe-house/static/media/phone.4717629487c9b793780c9e9f21c519b4.svg",
     "static/media/CloseIcon.svg": "/Deluxe-house/static/media/CloseIcon.bf04ea06d3c32eee082a.svg",
     "index.html": "/Deluxe-house/index.html",
-    "main.8e7c30e0.css.map": "/Deluxe-house/static/css/main.8e7c30e0.css.map",
+    "main.033586ea.css.map": "/Deluxe-house/static/css/main.033586ea.css.map",
     "main.4d67b82d.js.map": "/Deluxe-house/static/js/main.4d67b82d.js.map",
     "787.971184cf.chunk.js.map": "/Deluxe-house/static/js/787.971184cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e7c30e0.css",
+    "static/css/main.033586ea.css",
     "static/js/main.4d67b82d.js"
   ]
 }
