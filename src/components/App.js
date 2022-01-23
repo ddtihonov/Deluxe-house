@@ -31,6 +31,9 @@ import Garderob from './Garderob.js';
 import Kmg from './Kmg.js';
 import AstanaGolf from './AstanaGolf.js';
 import Kcell from './Kcell.js';
+import KidsRoom from './KidsRoom.js';
+import Plaster from './Plaster.js';
+import Cocina from './Cocina.js';
 
 export default function App() {
 
@@ -124,6 +127,15 @@ return (
                         />
                         <Route  exact path='/kcell'  element={
                                 <Kcell/>}
+                        />
+                        <Route  exact path='/kids-room'  element={
+                                <KidsRoom/>}
+                        />
+                        <Route  exact path='/plaster'  element={
+                                <Plaster/>}
+                        />
+                        <Route  exact path='/cocina'  element={
+                                <Cocina/>}
                         />
                 </Routes>  
                 <Footer />     

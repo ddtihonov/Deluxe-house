@@ -39,21 +39,33 @@ export default function Articles () {
                     text="Одним из немаловажных факторов, влияющих на восприятие общей картины дизайна того или иного помещения, является гармоничное сочетание различных фактур. Не стоит путать понятия «фактура»…"
                     image={articles_1}
                 />
-                <CardArticle
-                    title="Декоративная штукатурка"
-                    text="Декоративная штукатурка — это красивый и необычный способ оформления интерьера, однако ее стоимость довольно высока. В этой статье…"
-                    image={articles_2}
-                />
-                <CardArticle
-                    title="Что учесть в проекте кухни?"
-                    text="Кухня — это самое трудозатратное в квартире помещение. Грамотно спроектированная кухня облегчит работу хозяйки, укоротив время, которое она тратит…"
-                    image={articles_3}
-                />
-                <CardArticle
-                    title="Как организовать детскую?"
-                    text="Детская спальня — это мини-мирок живущего в ней ребенка. Он в ней не просто проводит время, а растет и развивается, — а значит, дел у него обычно очень…"
-                    image={articles_4}
-                />
+                <li className="articles__card">
+                    <img className="articles__image" src={articles_2} alt="дизайн интерьера"/>
+                    <h3 className="articles__title">Декоративна штукатурка</h3>
+                    <p className="articles__text">Декоративная штукатурка — это красивый и необычный способ оформления интерьера, однако ее стоимость довольно высока. В этой статье…</p>
+                    <div className="articles__box">
+                        <div className="articles__line"></div>
+                        <Link className="articles__link" to="/plaster">подробнее</Link>
+                    </div>
+                </li>
+                <li className="articles__card">
+                    <img className="articles__image" src={articles_3} alt="дизайн интерьера"/>
+                    <h3 className="articles__title">Что учесть в проекте кухни</h3>
+                    <p className="articles__text">Кухня — это самое трудозатратное в квартире помещение. Грамотно спроектированная кухня облегчит работу хозяйки, укоротив время, которое она тратит…</p>
+                    <div className="articles__box">
+                        <div className="articles__line"></div>
+                        <Link className="articles__link" to="/cocina">подробнее</Link>
+                    </div>
+                </li>
+                <li className="articles__card">
+                    <img className="articles__image" src={articles_4} alt="дизайн интерьера"/>
+                    <h3 className="articles__title">Как организовать детскую</h3>
+                    <p className="articles__text">Детская спальня — это мини-мирок живущего в ней ребенка. Он в ней не просто проводит время, а растет и развивается, — а значит, дел у него обычно очень…</p>
+                    <div className="articles__box">
+                        <div className="articles__line"></div>
+                        <Link className="articles__link" to="/kids-room">подробнее</Link>
+                    </div>
+                </li>
                 <CardArticle
                     title="Визуально увеличить комнату"
                     text="Существует множество приемов для визуального увеличения пространства комнаты. С некоторыми из них мы в этой статье поделимся с нашими читателями. И так, в первую очередь нужно обратить внимание…"
