@@ -34,6 +34,9 @@ import Kcell from './Kcell.js';
 import KidsRoom from './KidsRoom.js';
 import Plaster from './Plaster.js';
 import Cocina from './Cocina.js';
+import LargeRoom from './LargeRoom.js';
+import Textures from './Textures.js';
+import Budget from './Budget.js';
 
 export default function App() {
 
@@ -136,6 +139,15 @@ return (
                         />
                         <Route  exact path='/cocina'  element={
                                 <Cocina/>}
+                        />
+                        <Route  exact path='/large-room'  element={
+                                <LargeRoom/>}
+                        />
+                        <Route  exact path='/textures'  element={
+                                <Textures/>}
+                        />
+                        <Route  exact path='/budget'  element={
+                                <Budget/>}
                         />
                 </Routes>  
                 <Footer />     

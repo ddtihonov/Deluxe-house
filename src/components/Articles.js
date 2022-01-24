@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom"
-import CardArticle from "./CardArticle"
 import React, { useEffect } from 'react';
 
 import articles_1 from '../images/articles/articles_1.png'
@@ -34,11 +33,15 @@ export default function Articles () {
         <h2 className="title__smoll">Интересные статьи</h2>
         <div className="line"></div>    
         <ul className="articles__table">
-                <CardArticle
-                    title="О сочетании фактур в интерьере"
-                    text="Одним из немаловажных факторов, влияющих на восприятие общей картины дизайна того или иного помещения, является гармоничное сочетание различных фактур. Не стоит путать понятия «фактура»…"
-                    image={articles_1}
-                />
+                <li className="articles__card">
+                    <img className="articles__image" src={articles_1} alt="дизайн интерьера"/>
+                    <h3 className="articles__title">О сочетании фактур в интерьере</h3>
+                    <p className="articles__text">Одним из немаловажных факторов, влияющих на восприятие общей картины дизайна того или иного помещения, является гармоничное сочетание различных фактур. Не стоит путать понятия «фактура»…</p>
+                    <div className="articles__box">
+                        <div className="articles__line"></div>
+                        <Link className="articles__link" to="/textures">подробнее</Link>
+                    </div>
+                </li>
                 <li className="articles__card">
                     <img className="articles__image" src={articles_2} alt="дизайн интерьера"/>
                     <h3 className="articles__title">Декоративна штукатурка</h3>
@@ -66,16 +69,24 @@ export default function Articles () {
                         <Link className="articles__link" to="/kids-room">подробнее</Link>
                     </div>
                 </li>
-                <CardArticle
-                    title="Визуально увеличить комнату"
-                    text="Существует множество приемов для визуального увеличения пространства комнаты. С некоторыми из них мы в этой статье поделимся с нашими читателями. И так, в первую очередь нужно обратить внимание…"
-                    image={articles_5}
-                />
-                <CardArticle
-                    title="Минимализм и простота кухни"
-                    text="Кухня всегда остается одной из самых часто посещаемых комнат вашего дома и эдаким «коммуникативным центром» всей семьи. Мы готовы поделиться основными простыми советами как привнести…"
-                    image={articles_6}
-                />
+                <li className="articles__card">
+                    <img className="articles__image" src={articles_5} alt="дизайн интерьера"/>
+                    <h3 className="articles__title">Визуально увеличить комнату</h3>
+                    <p className="articles__text">Существует множество приемов для визуального увеличения пространства комнаты. С некоторыми из них мы в этой статье поделимся с нашими читателями. И так, в первую очередь нужно обратить внимание…</p>
+                    <div className="articles__box">
+                        <div className="articles__line"></div>
+                        <Link className="articles__link" to="/large-room">подробнее</Link>
+                    </div>
+                </li>
+                <li className="articles__card">
+                    <img className="articles__image" src={articles_6} alt="дизайн интерьера"/>
+                    <h3 className="articles__title">Сроки и бюджет</h3>
+                    <p className="articles__text">Как быть, если мне нужен проект в очень сжатые сроки и за маленький бюджет? С этой целью Вы можете заказать минимальный пакет услуг, который состоит из чертежей и подбора…</p>
+                    <div className="articles__box">
+                        <div className="articles__line"></div>
+                        <Link className="articles__link" to="/budget">подробнее</Link>
+                    </div>
+                </li>
             </ul>
         </div>
         
