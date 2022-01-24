@@ -1,42 +1,18 @@
-import React, { useState, useEffect} from 'react';
+import React, {useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import Portfolio from './Portfolio';
 import RatesRepair from './RatesRepair';
-import Popup from './Popup.js'; 
 import img from '../images/repiair/img.png'
 import CapRepair from './CapRepair';
 
 import we_image from '../images/we/we_image_2.png'
 
-export default function Repiair () {
-    const [isPopupOpen, setIsPopupOpen] = useState(false);
-
-    const handlePopup = () => {
-        setIsPopupOpen(true);
-    }
-
-    const closeAllPopups = () => {
-        setIsPopupOpen(false);
-    }
-
-    // обработчики закрытия
-    function handleClosePopup(evt) {
-        if (
-            evt.target.classList.contains('popup')
-        ) {
-            closeAllPopups();
-        }
-    }
+export default function Repiair (props) {
 
     useEffect(() => {
-        function handleEscClose(evt) {
-            if (evt.keyCode === 27) closeAllPopups();
-        }
-    
-        document.addEventListener('keydown', handleEscClose);
-    
-        return () => document.removeEventListener('keydown', handleEscClose);
-    }, []);
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <>
         <CapRepair
@@ -78,7 +54,7 @@ export default function Repiair () {
             </ul>
         </section>                          
         <RatesRepair
-            openPopup={handlePopup}
+            openPopup={props.handlePopup}
         />
         <section className="we">
             <h2 className="title__smoll">Как мы работаем?</h2>
@@ -99,11 +75,6 @@ export default function Repiair () {
         </section>
         <img className="repiair__img" src={img} alt="надпись"/>
         <div></div>
-        <Popup
-            isOpen={isPopupOpen} 
-            close={handleClosePopup}
-            onClose={closeAllPopups} 
-        />  
         </>
 )
 }

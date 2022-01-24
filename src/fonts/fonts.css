@@ -42,4 +42,13 @@
 	src: url("Forum-Regular.woff2") format("woff2"),
 		 url("Forum-Regular.woff") format("woff");
   }
+
+  @font-face {
+	font-family: 'Segoe';
+	font-style:  normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url("segoe-print.woff2") format("woff2"),
+		 url("segoe-print.woff") format("woff");
+  } 
   

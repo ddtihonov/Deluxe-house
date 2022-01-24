@@ -7,11 +7,13 @@ import Portfolio from "./Portfolio"
 import Advantage from "./Advantage"
 import Positives from "./Positives"
 
-export default function Main () {
+export default function Main (props) {
 
     return (
     <main className="content">
-        <Initial/>
+        <Initial
+            openPopup={props.handlePopup}
+        />
         <We/>
         <Portfolio
         title="Наши проекты"

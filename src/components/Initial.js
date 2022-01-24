@@ -5,7 +5,7 @@ import pint from '../images/footer/pint.svg'
 import LOGO from '../images/ini/LOGO.svg'
 import INTERIOR_DESIGN from '../images/ini/INTERIOR_DESIGN.png'
 
-export default function Initial () {
+export default function Initial (props) {
 
     return (
     <section className="initial">
@@ -33,7 +33,7 @@ export default function Initial () {
                     <h1 className="initial__title">РОСКОШНЫЙ <span className="title__selection title__color">ДИЗАЙН 
                         ИНТЕРЬЕРА</span> В НУР-СУЛТАНЕ</h1>
                     <p className="initial__text">Мы создаем уникальные проекты любой сложности на высоком уровне качества!</p>
-                    <button className="initial__button">Расчет стоимости</button>
+                    <button className="initial__button" onClick={props.openPopup}>Расчет стоимости</button>
                 </div>
                 <img className="label__initial" src={INTERIOR_DESIGN} alt="надпись"/>
             </div>

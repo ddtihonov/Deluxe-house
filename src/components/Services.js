@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Steps from './Steps';
 import Portfolio from './Portfolio';
@@ -7,40 +7,11 @@ import Popup from './Popup.js';
 
 import repiair_we from '../images/repiair/repiair_we.png'
 
-export default function Services () {
+export default function Services (props) {
 
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
-
-    const [isPopupOpen, setIsPopupOpen] = useState(false);
-
-    const handlePopup = () => {
-        setIsPopupOpen(true);
-    }
-
-    const closeAllPopups = () => {
-        setIsPopupOpen(false);
-    }
-
-    // обработчики закрытия
-    function handleClosePopup(evt) {
-        if (
-            evt.target.classList.contains('popup')
-        ) {
-            closeAllPopups();
-        }
-    }
-
-    useEffect(() => {
-        function handleEscClose(evt) {
-            if (evt.keyCode === 27) closeAllPopups();
-        }
-    
-        document.addEventListener('keydown', handleEscClose);
-    
-        return () => document.removeEventListener('keydown', handleEscClose);
-    }, []);
 
     return (
         <>
@@ -67,7 +38,7 @@ export default function Services () {
                 <p className="paragraph__text">- Ну, и конечно же, в итоге Вы получите уникальное стильное помещение, которое будет радовать и вдохновлять Вас многие годы!</p>
         </div>
         <Rates
-            openPopup={handlePopup}
+            openPopup={props.handlePopup}
         />
         <Portfolio
             title="Наши проекты"
@@ -111,11 +82,6 @@ export default function Services () {
                 <h2 className="paragraph__title">Как заказать услугу по дизайну интерьера в Нур-Султане?</h2>
                 <p className="paragraph__text">Интерьеры – это востребованная область в нашем времени. Наша команда поможет вам создать дизайн интерьера, который решит все задачи по организации пространства. Грамотно составленный профессионалами проект подробно и скурпулезно разрабатывается для членов конкретной семьи или компании, с учетом личных привычек каждого, вкусов и индивидуальных особенностей. У любого пространства должен быть свой уникальный климат, который близок хозяевам и всецело дополняет их стиль и образ. Если у Вас есть пространство, а Вы еще не пришли ни к какой идее, или, если она у Вас уже есть, но Вы не знаете или не можете ее воплотить в реальность, то смело обращайтесть в нашу студию дизайна интерьеров за консультацией!</p>
         </div>
-        <Popup
-            isOpen={isPopupOpen} 
-            close={handleClosePopup}
-            onClose={closeAllPopups}  
-        />  
         </>
 )
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect} from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Header  from "./Header.js";
 import Footer from "./Footer.js";
@@ -37,13 +37,55 @@ import Cocina from './Cocina.js';
 import LargeRoom from './LargeRoom.js';
 import Textures from './Textures.js';
 import Budget from './Budget.js';
+import Popup from './Popup.js';
+import PopupOk from './PopupOk.js';
 
 export default function App() {
+
+        const [isPopupOpen, setIsPopupOpen] = useState(false);
+        const [isPopupOkOpen, setIsPopupOkOpen] = useState(false);
+
+        const handlePopup = () => {
+                setIsPopupOpen(true);
+        }
+
+        const closeAllPopups = () => {
+                setIsPopupOpen(false);
+                setIsPopupOkOpen(false);
+        }
+
+        // обработчики закрытия
+        function handleClosePopup(evt) {
+                if (
+                        evt.target.classList.contains('popup')
+                ) {
+                        closeAllPopups();
+                }
+        }
+
+        useEffect(() => {
+                function handleEscClose(evt) {
+                if (evt.keyCode === 27) closeAllPopups();
+        }
+                document.addEventListener('keydown', handleEscClose);
+                return () => document.removeEventListener('keydown', handleEscClose);
+        }, []);
+        
+        function handleUpdatePhone(phone) {
+                console.log(phone)
+                closeAllPopups();
+                setIsPopupOkOpen(true);
+        }
 
 return (
         <div className="page">
                 <Header />
                 <Routes>
+                        <Route  exact path='/'  element={
+                                <Main
+                                        handlePopup={handlePopup}
+                                />}
+                        />
                         <Route exact path='/housing'  element={
                                 <Housing/>}
                         />
@@ -51,10 +93,14 @@ return (
                                 <Commercial/>}
                         />
                         <Route exact path='/repiair'  element={
-                                <Repiair/>}
+                                <Repiair
+                                        handlePopup={handlePopup}
+                                />}
                         />
                         <Route exact path='/services'  element={
-                                <Services/>}
+                                <Services
+                                        handlePopup={handlePopup}
+                                />}
                         />
                         <Route  exact path='/team'  element={
                                 <Team/>}
@@ -64,9 +110,6 @@ return (
                         />
                         <Route  exact path='/articles'  element={
                                 <Articles/>}
-                        />
-                        <Route  exact path='/'  element={
-                                <Main/>}
                         />
                         <Route  exact path='/escort'  element={
                                 <Escort/>}
@@ -150,7 +193,18 @@ return (
                                 <Budget/>}
                         />
                 </Routes>  
-                <Footer />     
+                <Footer />
+                <Popup
+                        isOpen={isPopupOpen} 
+                        close={handleClosePopup}
+                        onClose={closeAllPopups}
+                        onUpdatePhone={handleUpdatePhone} 
+                />
+                <PopupOk
+                        isOpen={isPopupOkOpen} 
+                        onClose={closeAllPopups}
+                        close={handleClosePopup}
+                />      
         </div>
 );
 }

@@ -1,6 +1,19 @@
-import React from 'react';
+import React, {useState} from 'react';
+import InputMask from "react-input-mask";
 
 export default function Popup (props) {
+
+    const [phone, setPhone] = useState('');
+
+    function handlePhoneChange(evt) {
+        setPhone(evt.target.value);
+    }
+
+    function handleSubmit(evt) {
+        evt.preventDefault();
+        props.onUpdatePhone(phone)
+    
+    }
 
 return (
     <div className={`popup ${props.isOpen ? 'popup_opened' : ''}`} onClick={props.close}>
@@ -8,17 +21,20 @@ return (
             <button className="popup__close-icon" type="button" onClick={props.onClose} aria-label="закрыть">
                 <svg viewBox="0 0 32 32"><path d="M10,10 L22,22 M22,10 L10,22"></path></svg>
             </button>
-            <form className="form">
-                <h2 className="form__title">Перезвоните мне</h2>
+            <form className="form" onSubmit={handleSubmit}>
+                <h3 className="form__title">Перезвоните мне</h3>
                 <p className="form__text">Наш менеджер перезвонит вам в течении 10 минут</p>
                 <label className="form__label">
                     <input className="form__input"
-                    type="tel" 
-                    name="about" 
-                    id="about-input" 
-                    placeholder="+7(___)___-__-__"  
-                    minLength="2" 
-                    maxLength="200" required/>
+                        onChange={handlePhoneChange}
+                        value={phone || ''}
+                        type="tel" 
+                        name="about" 
+                        id="about-input"
+                        mask={'+7\\(999) 999-99-99'}
+                        minLength="12" 
+                        required
+                    />
                     <span className="form__input-error about-input-error"></span>
                 </label>
                 <button className="form__button" type="submit">Заказать услугу</button>
