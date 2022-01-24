@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Deluxe-house/static/css/main.033586ea.css",
-    "main.js": "/Deluxe-house/static/js/main.71682f64.js",
+    "main.js": "/Deluxe-house/static/js/main.84b20fae.js",
     "static/js/787.971184cf.chunk.js": "/Deluxe-house/static/js/787.971184cf.chunk.js",
     "static/media/bg_useful.png": "/Deluxe-house/static/media/bg_useful.77e944cb42db1f5bd223.png",
     "static/media/img_24.png": "/Deluxe-house/static/media/img_24.1cdad588136a0a04b695.png",
@@ -24,7 +24,7 @@
     "static/media/img_16.png": "/Deluxe-house/static/media/img_16.c1e21cccf6d04a5edc45.png",
     "static/media/we_image_2.png": "/Deluxe-house/static/media/we_image_2.5af7d7cd7016d26d1cc1.png",
     "static/media/img_22.png": "/Deluxe-house/static/media/img_22.56ae7c0a9fcdf0f9e649.png",
-    "static/media/img_9.png": "/Deluxe-house/static/media/img_9.fe4ea443b617fb92672c.png",
+    "static/media/img_9.png": "/Deluxe-house/static/media/img_9.f358f057cc8cf560a80d.png",
     "static/media/img_19.png": "/Deluxe-house/static/media/img_19.0ace823977054632a405.png",
     "static/media/img_6.png": "/Deluxe-house/static/media/img_6.44771b756066ac58bb95.png",
     "static/media/img_8.png": "/Deluxe-house/static/media/img_8.e8370bac54b41d951538.png",
@@ -33,7 +33,7 @@
     "static/media/objects.png": "/Deluxe-house/static/media/objects.661d2900e5364f6c21cd.png",
     "static/media/img_13.png": "/Deluxe-house/static/media/img_13.950e0d6b773db9f75c67.png",
     "static/media/img_12.png": "/Deluxe-house/static/media/img_12.af6e97ff6bf617c0baf6.png",
-    "static/media/img_10.png": "/Deluxe-house/static/media/img_10.fe78fa7d8402e22c9e04.png",
+    "static/media/img_10.png": "/Deluxe-house/static/media/img_10.1c70e7b3ec5ad12665e7.png",
     "static/media/mask.jpg": "/Deluxe-house/static/media/mask.9bac141b6e61cd52f880.jpg",
     "static/media/img_15.png": "/Deluxe-house/static/media/img_15.ba956afde26130cc3b9a.png",
     "static/media/img_2.png": "/Deluxe-house/static/media/img_2.30587a0dd17d7b30f0b0.png",
@@ -48,7 +48,6 @@
     "static/media/articles_2.png": "/Deluxe-house/static/media/articles_2.5042a1a2aa19d6d1131d.png",
     "static/media/esco_6.png": "/Deluxe-house/static/media/esco_6.c71043911cbf9fdc6e11.png",
     "static/media/esco_2.png": "/Deluxe-house/static/media/esco_2.92e46ebd47f781d38a8a.png",
-    "static/media/articles_6.png": "/Deluxe-house/static/media/articles_6.5f561316bfd1a0de9a63.png",
     "static/media/repiair_we.png": "/Deluxe-house/static/media/repiair_we.f020ad579f43005f2cb2.png",
     "static/media/positives_4.png": "/Deluxe-house/static/media/positives_4.a331465cc55b255f2378.png",
     "static/media/articles_3.png": "/Deluxe-house/static/media/articles_3.9894e29d994432a4efd4.png",
@@ -89,6 +88,7 @@
     "static/media/design_1.png": "/Deluxe-house/static/media/design_1.a8bb5215005b485d6e36.png",
     "static/media/title.svg": "/Deluxe-house/static/media/title.2530bed2c430da2c1e4426548075a9c5.svg",
     "static/media/design_7.png": "/Deluxe-house/static/media/design_7.0596fcd1ab665b125dc5.png",
+    "static/media/articles_6.png": "/Deluxe-house/static/media/articles_6.3d0e4526740e0a498758.png",
     "static/media/positives_2.1.png": "/Deluxe-house/static/media/positives_2.1.6ecd44c975917efc8d52.png",
     "static/media/LOGO.svg": "/Deluxe-house/static/media/LOGO.7c9f528ef08f1df400e3eebdbab30b94.svg",
     "static/media/Roboto-Medium.woff2": "/Deluxe-house/static/media/Roboto-Medium.7d2a7d7644dad6b39474.woff2",
@@ -129,11 +129,11 @@
     "static/media/CloseIcon.svg": "/Deluxe-house/static/media/CloseIcon.bf04ea06d3c32eee082a.svg",
     "index.html": "/Deluxe-house/index.html",
     "main.033586ea.css.map": "/Deluxe-house/static/css/main.033586ea.css.map",
-    "main.71682f64.js.map": "/Deluxe-house/static/js/main.71682f64.js.map",
+    "main.84b20fae.js.map": "/Deluxe-house/static/js/main.84b20fae.js.map",
     "787.971184cf.chunk.js.map": "/Deluxe-house/static/js/787.971184cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.033586ea.css",
-    "static/js/main.71682f64.js"
+    "static/js/main.84b20fae.js"
   ]
 }
