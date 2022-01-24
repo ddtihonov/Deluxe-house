@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Deluxe-house/static/css/main.033586ea.css",
-    "main.js": "/Deluxe-house/static/js/main.84b20fae.js",
+    "main.css": "/Deluxe-house/static/css/main.08b04721.css",
+    "main.js": "/Deluxe-house/static/js/main.af030ada.js",
     "static/js/787.971184cf.chunk.js": "/Deluxe-house/static/js/787.971184cf.chunk.js",
     "static/media/bg_useful.png": "/Deluxe-house/static/media/bg_useful.77e944cb42db1f5bd223.png",
     "static/media/img_24.png": "/Deluxe-house/static/media/img_24.1cdad588136a0a04b695.png",
@@ -69,6 +69,7 @@
     "static/media/img_1.jpg": "/Deluxe-house/static/media/img_1.5e120e6963ef6f98ec79.jpg",
     "static/media/img_4.jpg": "/Deluxe-house/static/media/img_4.db20393f6718b29d4af1.jpg",
     "static/media/design_6.png": "/Deluxe-house/static/media/design_6.134b828ba8fb81d522d3.png",
+    "static/media/segoe-print.woff": "/Deluxe-house/static/media/segoe-print.4347e04434658d8c3273.woff",
     "static/media/Roboto-Medium.woff": "/Deluxe-house/static/media/Roboto-Medium.1669f707e753bc23acbb.woff",
     "static/media/design_8.png": "/Deluxe-house/static/media/design_8.249d3cfed2d3ca763f32.png",
     "static/media/Roboto-Bold.woff": "/Deluxe-house/static/media/Roboto-Bold.00f54dcb163757355b2d.woff",
@@ -84,6 +85,7 @@
     "static/media/img_5.jpg": "/Deluxe-house/static/media/img_5.09539cafc142da729f8c.jpg",
     "static/media/design_11.png": "/Deluxe-house/static/media/design_11.d4a1fe35080644dfe419.png",
     "static/media/services.jpg": "/Deluxe-house/static/media/services.7eec2f3dd99c1aec4854.jpg",
+    "static/media/segoe-print.woff2": "/Deluxe-house/static/media/segoe-print.b9e5d0bb8d4839be4c65.woff2",
     "static/media/design_2.png": "/Deluxe-house/static/media/design_2.c0cd65e1f124d06ac2d1.png",
     "static/media/design_1.png": "/Deluxe-house/static/media/design_1.a8bb5215005b485d6e36.png",
     "static/media/title.svg": "/Deluxe-house/static/media/title.2530bed2c430da2c1e4426548075a9c5.svg",
@@ -128,12 +130,12 @@
     "static/media/phone.svg": "/Deluxe-house/static/media/phone.4717629487c9b793780c9e9f21c519b4.svg",
     "static/media/CloseIcon.svg": "/Deluxe-house/static/media/CloseIcon.bf04ea06d3c32eee082a.svg",
     "index.html": "/Deluxe-house/index.html",
-    "main.033586ea.css.map": "/Deluxe-house/static/css/main.033586ea.css.map",
-    "main.84b20fae.js.map": "/Deluxe-house/static/js/main.84b20fae.js.map",
+    "main.08b04721.css.map": "/Deluxe-house/static/css/main.08b04721.css.map",
+    "main.af030ada.js.map": "/Deluxe-house/static/js/main.af030ada.js.map",
     "787.971184cf.chunk.js.map": "/Deluxe-house/static/js/787.971184cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.033586ea.css",
-    "static/js/main.84b20fae.js"
+    "static/css/main.08b04721.css",
+    "static/js/main.af030ada.js"
   ]
 }
