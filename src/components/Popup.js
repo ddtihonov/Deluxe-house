@@ -12,7 +12,6 @@ export default function Popup (props) {
     function handleSubmit(evt) {
         evt.preventDefault();
         props.onUpdatePhone(phone)
-    
     }
 
 return (
@@ -25,15 +24,13 @@ return (
                 <h3 className="form__title">Перезвоните мне</h3>
                 <p className="form__text">Наш менеджер перезвонит вам в течении 10 минут</p>
                 <label className="form__label">
-                    <input className="form__input"
+                    <InputMask className="form__input"
                         onChange={handlePhoneChange}
                         value={phone || ''}
-                        type="tel" 
-                        name="about" 
-                        id="about-input"
+                        name="phone" 
+                        id="phone-input"
                         mask={'+7\\(999) 999-99-99'}
-                        minLength="12" 
-                        required
+                        placeholder="+7 (___) ___-__-__"
                     />
                     <span className="form__input-error about-input-error"></span>
                 </label>
