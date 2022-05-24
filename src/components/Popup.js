@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import InputMask from "react-input-mask";
 
-export default function Popup (props) {
+export default function Popup ({close, onClose, onUpdatePhone}) {
 
     const [phone, setPhone] = useState('');
 
@@ -11,13 +11,13 @@ export default function Popup (props) {
 
     function handleSubmit(evt) {
         evt.preventDefault();
-        props.onUpdatePhone(phone)
+        onUpdatePhone(phone)
     }
 
 return (
-    <div className={`popup ${props.isOpen ? 'popup_opened' : ''}`} onClick={props.close}>
+    <div className='popup popup_opened' onClick={close}>
         <div className="popup__container popup__container_cell_exchange">
-            <button className="popup__close-icon" type="button" onClick={props.onClose} aria-label="закрыть">
+            <button className="popup__close-icon" type="button" onClick={onClose} aria-label="закрыть">
                 <svg viewBox="0 0 32 32"><path d="M10,10 L22,22 M22,10 L10,22"></path></svg>
             </button>
             <form className="form" onSubmit={handleSubmit}>

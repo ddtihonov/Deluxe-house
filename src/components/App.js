@@ -194,17 +194,15 @@ return (
                         />
                 </Routes>  
                 <Footer />
-                <Popup
-                        isOpen={isPopupOpen} 
+                {isPopupOpen && <Popup
                         close={handleClosePopup}
                         onClose={closeAllPopups}
                         onUpdatePhone={handleUpdatePhone} 
-                />
-                <PopupOk
-                        isOpen={isPopupOkOpen} 
+                />}
+                {isPopupOkOpen && <PopupOk
                         onClose={closeAllPopups}
                         close={handleClosePopup}
-                />      
+                />}
         </div>
 );
 }
