@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Deluxe-house/static/css/main.a7fe43f6.css",
-    "main.js": "/Deluxe-house/static/js/main.c9589e8b.js",
+    "main.css": "/Deluxe-house/static/css/main.69ff86f0.css",
+    "main.js": "/Deluxe-house/static/js/main.e26f795b.js",
     "static/js/787.971184cf.chunk.js": "/Deluxe-house/static/js/787.971184cf.chunk.js",
     "static/media/bg_useful.png": "/Deluxe-house/static/media/bg_useful.77e944cb42db1f5bd223.png",
     "static/media/img_24.png": "/Deluxe-house/static/media/img_24.1cdad588136a0a04b695.png",
@@ -130,12 +130,12 @@
     "static/media/phone.svg": "/Deluxe-house/static/media/phone.4717629487c9b793780c9e9f21c519b4.svg",
     "static/media/CloseIcon.svg": "/Deluxe-house/static/media/CloseIcon.bf04ea06d3c32eee082a.svg",
     "index.html": "/Deluxe-house/index.html",
-    "main.a7fe43f6.css.map": "/Deluxe-house/static/css/main.a7fe43f6.css.map",
-    "main.c9589e8b.js.map": "/Deluxe-house/static/js/main.c9589e8b.js.map",
+    "main.69ff86f0.css.map": "/Deluxe-house/static/css/main.69ff86f0.css.map",
+    "main.e26f795b.js.map": "/Deluxe-house/static/js/main.e26f795b.js.map",
     "787.971184cf.chunk.js.map": "/Deluxe-house/static/js/787.971184cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7fe43f6.css",
-    "static/js/main.c9589e8b.js"
+    "static/css/main.69ff86f0.css",
+    "static/js/main.e26f795b.js"
   ]
 }
